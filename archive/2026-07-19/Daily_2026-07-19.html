@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>威胁情报 - 2026-07-19</title>
+    <style>
+        /* 全局样式重置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* 现代化配色方案 */
+        :root {
+            --primary-color: #4285f4;
+            --secondary-color: #34a853;
+            --accent-color: #fbbc05;
+            --danger-color: #ea4335;
+            --text-primary: #202124;
+            --text-secondary: #5f6368;
+            --text-muted: #9aa0a6;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8f9fa;
+            --bg-tertiary: #f1f3f4;
+            --border-color: #e0e0e0;
+            --shadow-sm: 0 1px 2px 0 rgba(60, 64, 67, 0.3);
+            --shadow-md: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
+            --border-radius: 8px;
+            --transition: all 0.2s ease-in-out;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--bg-secondary);
+            font-size: 16px;
+        }
+        
+        /* 标题样式 */
+        header {
+            background: linear-gradient(135deg, var(--primary-color), #3367d6);
+            color: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-md);
+        }
+        
+        h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: var(--primary-color);
+            font-weight: 600;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--bg-tertiary);
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        /* 概览卡片 */
+        .summary {
+            background-color: var(--bg-primary);
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .summary-item {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .summary-item h2 {
+            margin: 0;
+            padding: 0;
+            border: none;
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+        
+        .summary-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-top: 5px;
+        }
+        
+        /* 漏洞卡片 */
+        .vuln-item {
+            background-color: var(--bg-primary);
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .vuln-item:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+        }
+        
+        /* 漏洞标题 */
+        .vuln-title {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.3rem;
+            transition: var(--transition);
+            text-align: center;
+            display: block;
+            margin-bottom: 15px;
+        }
+        
+        .vuln-title:hover {
+            text-decoration: underline;
+            color: #3367d6;
+        }
+        
+        /* 漏洞信息 */
+        .vuln-info {
+            margin-top: 15px;
+            color: var(--text-secondary);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .vuln-meta {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .vuln-meta strong {
+            color: var(--text-primary);
+            font-weight: 500;
+            min-width: 80px;
+            flex-shrink: 0;
+        }
+        
+        .vuln-meta span {
+            word-break: break-word;
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        /* 标签样式 */
+        .vuln-tag {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-right: 8px;
+            margin-top: 5px;
+        }
+        
+        .tag-critical {
+            background-color: #ffebee;
+            color: var(--danger-color);
+        }
+        
+        .tag-high {
+            background-color: #fff3e0;
+            color: #f57c00;
+        }
+        
+        .tag-medium {
+            background-color: #fff8e1;
+            color: var(--accent-color);
+        }
+        
+        .tag-low {
+            background-color: #e8f5e8;
+            color: var(--secondary-color);
+        }
+        
+        /* 链接样式 */
+        .vuln-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: var(--transition);
+            word-break: break-all;
+        }
+        
+        .vuln-link:hover {
+            text-decoration: underline;
+            color: #3367d6;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            
+            header {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .vuln-info {
+                grid-template-columns: 1fr;
+            }
+            
+            .summary {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .summary-item {
+                width: 100%;
+            }
+        }
+        
+        /* 页脚样式 */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        /* 加载动画 */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid var(--bg-tertiary);
+            border-radius: 50%;
+            border-top-color: var(--primary-color);
+            animation: spin 1s ease-in-out infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        /* 空状态 */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+        
+        .empty-state h3 {
+            color: var(--text-secondary);
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🔒 威胁情报</h1>
+        <div style="font-size: 1.1rem; margin: 10px 0;">2026-07-19</div>
+        <div style="font-size: 0.9rem; opacity: 0.9;">最后更新时间：2026-07-19 14:43:12</div>
+    </header>
+    
+    <main>
+        <div class="summary">
+            <div class="summary-item">
+                <h2 style="text-align: center; font-weight: bold; margin-bottom: 15px;">威胁情报前瞻</h2>
+                <div style="margin-top: 10px; color: var(--text-secondary); line-height: 1.8;">
+                    <p>📊 <strong>今日漏洞总数：</strong>12</p>
+                    <p>📈 <strong>与昨日对比：</strong>增加了 12 个漏洞</p>
+                    
+                    
+                    <p>🔍 <strong>漏洞来源分布：</strong>
+                        
+                        
+                            
+                                
+                                    OSCS1024漏洞库(10个, 83.3%), 
+                                
+                            
+                                
+                                    微步(2个, 16.7%), 
+                                
+                            
+                        
+                    </p>
+                    
+                    
+
+                </div>
+            </div>
+        </div>
+        
+        <h2>📋 漏洞详情</h2>
+        
+            
+            <div class="vuln-item">
+                <h3><a href="https://www.oscs1024.com/hd/MPS-zu5e-6k29" class="vuln-title" target="_blank">Linux 内核 batman-adv 模块 OGMv2 聚合队列内存泄漏漏洞</a></h3>
+                <div class="vuln-info">
+                    <div class="vuln-meta">
+                        <strong>编号：</strong>
+                        <span>CVE-2026-63835</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>来源：</strong>
+                        <span>OSCS1024漏洞库</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>时间：</strong>
+                        <span>2026-07-19</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>详情：</strong>
+                        <a href="https://www.oscs1024.com/hd/MPS-zu5e-6k29" class="vuln-link" target="_blank">https://www.oscs1024.com/hd/MPS-zu5e-6k29</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vuln-item">
+                <h3><a href="https://www.oscs1024.com/hd/MPS-c19d-25or" class="vuln-title" target="_blank">Linux内核batman-adv模块tp_meter未确认列表无界增长漏洞</a></h3>
+                <div class="vuln-info">
+                    <div class="vuln-meta">
+                        <strong>编号：</strong>
+                        <span>CVE-2026-63834</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>来源：</strong>
+                        <span>OSCS1024漏洞库</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>时间：</strong>
+                        <span>2026-07-19</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>详情：</strong>
+                        <a href="https://www.oscs1024.com/hd/MPS-c19d-25or" class="vuln-link" target="_blank">https://www.oscs1024.com/hd/MPS-c19d-25or</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vuln-item">
+                <h3><a href="https://www.oscs1024.com/hd/MPS-ybix-0gvc" class="vuln-title" target="_blank">Linux kernel mt76 Wi-Fi 驱动 wcid 链表破坏漏洞</a></h3>
+                <div class="vuln-info">
+                    <div class="vuln-meta">
+                        <strong>编号：</strong>
+                        <span>CVE-2026-63832</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>来源：</strong>
+                        <span>OSCS1024漏洞库</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>时间：</strong>
+                        <span>2026-07-19</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>详情：</strong>
+                        <a href="https://www.oscs1024.com/hd/MPS-ybix-0gvc" class="vuln-link" target="_blank">https://www.oscs1024.com/hd/MPS-ybix-0gvc</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vuln-item">
+                <h3><a href="https://www.oscs1024.com/hd/MPS-g5xh-jknr" class="vuln-title" target="_blank">Linux kernel NTFS3 保留 $LX* xattr 权限校验缺陷漏洞</a></h3>
+                <div class="vuln-info">
+                    <div class="vuln-meta">
+                        <strong>编号：</strong>
+                        <span>CVE-2026-63833</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>来源：</strong>
+                        <span>OSCS1024漏洞库</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>时间：</strong>
+                        <span>2026-07-19</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>详情：</strong>
+                        <a href="https://www.oscs1024.com/hd/MPS-g5xh-jknr" class="vuln-link" target="_blank">https://www.oscs1024.com/hd/MPS-g5xh-jknr</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vuln-item">
+                <h3><a href="https://www.oscs1024.com/hd/MPS-mdec-wqva" class="vuln-title" target="_blank">Linux kernel mac802154 llsec 链路层安全 in-place 加密漏洞</a></h3>
+                <div class="vuln-info">
+                    <div class="vuln-meta">
+                        <strong>编号：</strong>
+                        <span>CVE-2026-63831</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>来源：</strong>
+                        <span>OSCS1024漏洞库</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>时间：</strong>
+                        <span>2026-07-19</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>详情：</strong>
+                        <a href="https://www.oscs1024.com/hd/MPS-mdec-wqva" class="vuln-link" target="_blank">https://www.oscs1024.com/hd/MPS-mdec-wqva</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vuln-item">
+                <h3><a href="https://www.oscs1024.com/hd/MPS-6kwe-0f3c" class="vuln-title" target="_blank">Linux 内核 fbdev store_modes 函数释放后重用漏洞</a></h3>
+                <div class="vuln-info">
+                    <div class="vuln-meta">
+                        <strong>编号：</strong>
+                        <span>CVE-2026-63826</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>来源：</strong>
+                        <span>OSCS1024漏洞库</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>时间：</strong>
+                        <span>2026-07-19</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>详情：</strong>
+                        <a href="https://www.oscs1024.com/hd/MPS-6kwe-0f3c" class="vuln-link" target="_blank">https://www.oscs1024.com/hd/MPS-6kwe-0f3c</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vuln-item">
+                <h3><a href="https://www.oscs1024.com/hd/MPS-5lac-6z9w" class="vuln-title" target="_blank">Linux 内核 f2fs 大 folio 错误路径 bio 未提交漏洞</a></h3>
+                <div class="vuln-info">
+                    <div class="vuln-meta">
+                        <strong>编号：</strong>
+                        <span>CVE-2026-63820</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>来源：</strong>
+                        <span>OSCS1024漏洞库</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>时间：</strong>
+                        <span>2026-07-19</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>详情：</strong>
+                        <a href="https://www.oscs1024.com/hd/MPS-5lac-6z9w" class="vuln-link" target="_blank">https://www.oscs1024.com/hd/MPS-5lac-6z9w</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vuln-item">
+                <h3><a href="https://www.oscs1024.com/hd/MPS-495p-zhgb" class="vuln-title" target="_blank">Linux kernel AppArmor 策略去重循环释放后使用漏洞</a></h3>
+                <div class="vuln-info">
+                    <div class="vuln-meta">
+                        <strong>编号：</strong>
+                        <span>CVE-2026-63827</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>来源：</strong>
+                        <span>OSCS1024漏洞库</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>时间：</strong>
+                        <span>2026-07-19</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>详情：</strong>
+                        <a href="https://www.oscs1024.com/hd/MPS-495p-zhgb" class="vuln-link" target="_blank">https://www.oscs1024.com/hd/MPS-495p-zhgb</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vuln-item">
+                <h3><a href="https://www.oscs1024.com/hd/MPS-k678-zfjt" class="vuln-title" target="_blank">Linux内核rtw88 USB写入内存泄漏漏洞</a></h3>
+                <div class="vuln-info">
+                    <div class="vuln-meta">
+                        <strong>编号：</strong>
+                        <span>CVE-2026-63821</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>来源：</strong>
+                        <span>OSCS1024漏洞库</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>时间：</strong>
+                        <span>2026-07-19</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>详情：</strong>
+                        <a href="https://www.oscs1024.com/hd/MPS-k678-zfjt" class="vuln-link" target="_blank">https://www.oscs1024.com/hd/MPS-k678-zfjt</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vuln-item">
+                <h3><a href="https://www.oscs1024.com/hd/MPS-032i-bzmf" class="vuln-title" target="_blank">Linux 内核 f2fs 孤立 inode 越界读取漏洞</a></h3>
+                <div class="vuln-info">
+                    <div class="vuln-meta">
+                        <strong>编号：</strong>
+                        <span>CVE-2026-63818</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>来源：</strong>
+                        <span>OSCS1024漏洞库</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>时间：</strong>
+                        <span>2026-07-19</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>详情：</strong>
+                        <a href="https://www.oscs1024.com/hd/MPS-032i-bzmf" class="vuln-link" target="_blank">https://www.oscs1024.com/hd/MPS-032i-bzmf</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vuln-item">
+                <h3><a href="https://x.threatbook.com/v5/vul/XVE-2026-39061" class="vuln-title" target="_blank">WordPress Core  REST API 路由混淆漏洞 （wp2shell）</a></h3>
+                <div class="vuln-info">
+                    <div class="vuln-meta">
+                        <strong>编号：</strong>
+                        <span>XVE-2026-39061</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>来源：</strong>
+                        <span>微步</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>时间：</strong>
+                        <span>2026-07-19</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>详情：</strong>
+                        <a href="https://x.threatbook.com/v5/vul/XVE-2026-39061" class="vuln-link" target="_blank">https://x.threatbook.com/v5/vul/XVE-2026-39061</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vuln-item">
+                <h3><a href="https://x.threatbook.com/v5/vul/XVE-2026-39082" class="vuln-title" target="_blank">WordPress Core WP_Query SQL 注入漏洞 （wp2shell）</a></h3>
+                <div class="vuln-info">
+                    <div class="vuln-meta">
+                        <strong>编号：</strong>
+                        <span>XVE-2026-39082</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>来源：</strong>
+                        <span>微步</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>时间：</strong>
+                        <span>2026-07-19</span>
+                    </div>
+                    <div class="vuln-meta">
+                        <strong>详情：</strong>
+                        <a href="https://x.threatbook.com/v5/vul/XVE-2026-39082" class="vuln-link" target="_blank">https://x.threatbook.com/v5/vul/XVE-2026-39082</a>
+                    </div>
+                </div>
+            </div>
+            
+        
+    </main>
+    
+    <footer>
+        <p>Power By 东方隐侠安全团队·Anonymous@ <a href="https://www.dfyxsec.com/" target="_blank" style="color: var(--primary-color); text-decoration: none;">隐侠安全客栈</a></p>
+    </footer>
+</body>
+</html>
