@@ -2093,266 +2093,123 @@ def update_index_html():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>威胁情报</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        /* 全局样式重置 */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        /* 现代化配色方案 */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         :root {
-            --primary-color: #4285f4;
-            --secondary-color: #34a853;
-            --accent-color: #fbbc05;
-            --danger-color: #ea4335;
-            --text-primary: #202124;
-            --text-secondary: #5f6368;
-            --text-muted: #9aa0a6;
-            --bg-primary: #ffffff;
-            --bg-secondary: #f8f9fa;
-            --bg-tertiary: #f1f3f4;
-            --border-color: #e0e0e0;
-            --shadow-sm: 0 1px 2px 0 rgba(60, 64, 67, 0.3);
-            --shadow-md: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
-            --border-radius: 8px;
-            --transition: all 0.2s ease-in-out;
+            --primary: #4f46e5;
+            --primary-hover: #4338ca;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-300: #d1d5db;
+            --gray-400: #9ca3af;
+            --gray-500: #6b7280;
+            --gray-600: #4b5563;
+            --gray-700: #374151;
+            --gray-800: #1f2937;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --radius: 12px;
         }
-        
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: var(--gray-800);
             line-height: 1.6;
-            color: var(--text-primary);
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: var(--bg-secondary);
-            font-size: 16px;
         }
-        
-        /* 标题样式 */
-        header {
-            background: linear-gradient(135deg, var(--primary-color), #3367d6);
-            color: white;
-            padding: 30px;
-            border-radius: var(--border-radius);
-            text-align: center;
-            margin-bottom: 30px;
-            box-shadow: var(--shadow-md);
-        }
-        
-        h1 {
-            margin: 0 0 10px 0;
-            font-size: 2.2rem;
-            font-weight: 700;
-        }
-        
-        h2 {
-            font-size: 1.5rem;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            color: var(--primary-color);
-            font-weight: 600;
-            padding-bottom: 8px;
-            border-bottom: 2px solid var(--bg-tertiary);
-        }
-        
-        /* 报告列表 */
-        .report-list {
-            list-style: none;
-            padding: 0;
-        }
-        
-        .report-item {
-            background-color: var(--bg-primary);
-            padding: 20px;
-            margin-bottom: 15px;
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow-sm);
-            transition: var(--transition);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-        
-        .report-item:hover {
-            box-shadow: var(--shadow-md);
-            transform: translateY(-2px);
-        }
-        
-        .report-link {
-            color: var(--primary-color);
-            text-decoration: none;
-            font-size: 1.2rem;
-            font-weight: 600;
-            transition: var(--transition);
-            flex: 1;
-            min-width: 200px;
-        }
-        
-        .report-link:hover {
-            text-decoration: underline;
-            color: #3367d6;
-        }
-        
-        .report-info {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            flex-shrink: 0;
-        }
-        
-        .report-count {
-            font-weight: 600;
-            color: var(--primary-color);
-        }
-        
-        /* 统计信息 */
-        .stats {
-            background-color: var(--bg-primary);
-            padding: 20px;
-            margin-bottom: 30px;
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow-sm);
-        }
-        
-        .stat-item {
-            display: inline-block;
-            margin-right: 30px;
-            margin-bottom: 10px;
-        }
-        
-        .stat-label {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            margin-right: 8px;
-        }
-        
-        .stat-value {
-            font-size: 1.2rem;
-            font-weight: 700;
-            color: var(--primary-color);
-        }
-        
-        /* 响应式设计 */
-        @media (max-width: 768px) {
-            body {
-                padding: 15px;
-            }
-            
-            header {
-                padding: 20px;
-            }
-            
-            h1 {
-                font-size: 1.8rem;
-            }
-            
-            .report-item {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            
-            .report-link {
-                width: 100%;
-            }
-        }
-        
-        /* 页脚样式 */
-        footer {
-            text-align: center;
-            margin-top: 50px;
-            padding: 20px;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            border-top: 1px solid var(--border-color);
-        }
-        
-        /* 空状态 */
-        .empty-state {
-            text-align: center;
-            padding: 60px 20px;
-            color: var(--text-muted);
-        }
-        
-        .empty-state h3 {
-            color: var(--text-secondary);
-            margin-bottom: 10px;
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; margin-bottom: 40px; }
+        header h1 { font-size: 2.5rem; font-weight: 700; color: white; text-shadow: 0 2px 10px rgba(0,0,0,0.2); margin-bottom: 10px; }
+        header .subtitle { font-size: 1.1rem; color: rgba(255,255,255,0.9); }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 16px; margin-bottom: 32px; }
+        .stat-card { background: white; border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow-lg); text-align: center; }
+        .stat-card .label { font-size: 0.875rem; color: var(--gray-500); font-weight: 500; margin-bottom: 8px; }
+        .stat-card .value { font-size: 2rem; font-weight: 700; background: linear-gradient(135deg, var(--primary), #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .section-title { font-size: 1.5rem; font-weight: 600; color: white; margin-bottom: 20px; display: flex; align-items: center; gap: 8px; }
+        .report-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px; }
+        .report-card { background: white; border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); transition: all 0.2s; display: flex; justify-content: space-between; align-items: center; }
+        .report-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+        .report-link { color: var(--primary); text-decoration: none; font-size: 1.1rem; font-weight: 600; }
+        .report-link:hover { color: var(--primary-hover); text-decoration: underline; }
+        .report-meta { display: flex; align-items: center; gap: 16px; color: var(--gray-500); font-size: 0.9rem; }
+        .report-count { font-weight: 600; color: var(--primary); }
+        .empty-state { background: white; border-radius: var(--radius); padding: 40px; text-align: center; color: var(--gray-500); }
+        footer { text-align: center; margin-top: 40px; padding: 20px; color: rgba(255,255,255,0.7); font-size: 0.9rem; }
+        footer a { color: white; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        @media (max-width: 640px) {
+            header h1 { font-size: 1.75rem; }
+            .report-card { flex-direction: column; align-items: flex-start; gap: 12px; }
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>🔒 威胁情报</h1>
-        <div style="font-size: 1.1rem; opacity: 0.9;">威胁情报汇总</div>
-    </header>
-    
-    <main>
-        <h2>📊 统计信息</h2>
-        <div class="stats">
-            <div class="stat-item">
-                <span class="stat-label">周报数：</span>
-                <span class="stat-value">{{ weekly_reports|length }}</span>
+    <div class="container">
+        <header>
+            <h1>🔒 威胁情报</h1>
+            <div class="subtitle">威胁情报汇总</div>
+        </header>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="label">周报数</div>
+                <div class="value">{{ weekly_reports|length }}</div>
             </div>
-            <div class="stat-item">
-                <span class="stat-label">日报数：</span>
-                <span class="stat-value">{{ daily_reports|length }}</span>
+            <div class="stat-card">
+                <div class="label">日报数</div>
+                <div class="value">{{ daily_reports|length }}</div>
             </div>
-            <div class="stat-item">
-                <span class="stat-label">总报告数：</span>
-                <span class="stat-value">{{ weekly_reports|length + daily_reports|length }}</span>
+            <div class="stat-card">
+                <div class="label">总报告数</div>
+                <div class="value">{{ weekly_reports|length + daily_reports|length }}</div>
             </div>
         </div>
-        
-        <h2>📋 每周威胁情报</h2>
-        {% if weekly_reports %}
-            <ul class="report-list">
-                {% for report in weekly_reports %}
-                <li class="report-item">
-                    <a href="{{ report.path }}" class="report-link" target="_blank">{{ report.date }}</a>
-                    <div class="report-info">
-                        <span>📈 <strong class="report-count">{{ report.count }}</strong> 个漏洞</span>
-                        <a href="{{ report.path }}" style="color: var(--primary-color); text-decoration: none; font-size: 0.85rem;" target="_blank">查看详情</a>
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
-        {% else %}
-            <div class="empty-state">
-                <h3>暂无每周威胁情报</h3>
-                <p>还没有生成任何每周威胁情报，请稍后再查看。</p>
-            </div>
-        {% endif %}
-        
-        <h2>📋 每日威胁情报</h2>
+
+        <div class="section-title">📋 每日威胁情报</div>
         {% if daily_reports %}
-            <ul class="report-list">
+            <div class="report-list">
                 {% for report in daily_reports %}
-                <li class="report-item">
+                <div class="report-card">
                     <a href="{{ report.path }}" class="report-link" target="_blank">{{ report.date }}</a>
-                    <div class="report-info">
-                        <span>📈 <strong class="report-count">{{ report.count }}</strong> 个漏洞</span>
-                        <a href="{{ report.path }}" style="color: var(--primary-color); text-decoration: none; font-size: 0.85rem;" target="_blank">查看详情</a>
+                    <div class="report-meta">
+                        <span><strong class="report-count">{{ report.count }}</strong> 个漏洞</span>
+                        <a href="{{ report.path }}" target="_blank">查看详情 →</a>
                     </div>
-                </li>
+                </div>
                 {% endfor %}
-            </ul>
-        {% else %}
-            <div class="empty-state">
-                <h3>暂无每日威胁情报</h3>
-                <p>还没有生成任何每日威胁情报，请稍后再查看。</p>
             </div>
+        {% else %}
+            <div class="empty-state">暂无每日威胁情报</div>
         {% endif %}
-    </main>
-    
-    <footer>
-        <p>Power By 东方隐侠安全团队·Anonymous@ <a href="https://www.dfyxsec.com/" target="_blank" style="color: var(--primary-color); text-decoration: none;">隐侠安全客栈</a></p>
-    </footer>
+
+        <div class="section-title">📋 每周威胁情报</div>
+        {% if weekly_reports %}
+            <div class="report-list">
+                {% for report in weekly_reports %}
+                <div class="report-card">
+                    <a href="{{ report.path }}" class="report-link" target="_blank">{{ report.date }}</a>
+                    <div class="report-meta">
+                        <span><strong class="report-count">{{ report.count }}</strong> 个漏洞</span>
+                        <a href="{{ report.path }}" target="_blank">查看详情 →</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="empty-state">暂无每周威胁情报</div>
+        {% endif %}
+
+        <footer>
+            <p>Power By 东方隐侠安全团队 · <a href="https://www.dfyxsec.com/" target="_blank">隐侠安全客栈</a></p>
+        </footer>
+    </div>
 </body>
 </html>
     '''
