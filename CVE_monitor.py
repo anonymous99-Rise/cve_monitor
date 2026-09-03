@@ -2090,126 +2090,228 @@ def update_index_html():
     index_template = '''<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>威胁情报</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root {
-            --primary: #4f46e5;
-            --primary-hover: #4338ca;
-            --success: #10b981;
-            --warning: #f59e0b;
-            --gray-50: #f9fafb;
-            --gray-100: #f3f4f6;
-            --gray-200: #e5e7eb;
-            --gray-300: #d1d5db;
-            --gray-400: #9ca3af;
-            --gray-500: #6b7280;
-            --gray-600: #4b5563;
-            --gray-700: #374151;
-            --gray-800: #1f2937;
-            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-            --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-            --radius: 12px;
-        }
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            color: var(--gray-800);
-            line-height: 1.6;
-        }
-        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
-        header { text-align: center; margin-bottom: 40px; }
-        header h1 { font-size: 2.5rem; font-weight: 700; color: white; text-shadow: 0 2px 10px rgba(0,0,0,0.2); margin-bottom: 10px; }
-        header .subtitle { font-size: 1.1rem; color: rgba(255,255,255,0.9); }
-        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 16px; margin-bottom: 32px; }
-        .stat-card { background: white; border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow-lg); text-align: center; }
-        .stat-card .label { font-size: 0.875rem; color: var(--gray-500); font-weight: 500; margin-bottom: 8px; }
-        .stat-card .value { font-size: 2rem; font-weight: 700; background: linear-gradient(135deg, var(--primary), #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        .section-title { font-size: 1.5rem; font-weight: 600; color: white; margin-bottom: 20px; display: flex; align-items: center; gap: 8px; }
-        .report-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px; }
-        .report-card { background: white; border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); transition: all 0.2s; display: flex; justify-content: space-between; align-items: center; }
-        .report-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
-        .report-link { color: var(--primary); text-decoration: none; font-size: 1.1rem; font-weight: 600; }
-        .report-link:hover { color: var(--primary-hover); text-decoration: underline; }
-        .report-meta { display: flex; align-items: center; gap: 16px; color: var(--gray-500); font-size: 0.9rem; }
-        .report-count { font-weight: 600; color: var(--primary); }
-        .empty-state { background: white; border-radius: var(--radius); padding: 40px; text-align: center; color: var(--gray-500); }
-        footer { text-align: center; margin-top: 40px; padding: 20px; color: rgba(255,255,255,0.7); font-size: 0.9rem; }
-        footer a { color: white; text-decoration: none; }
-        footer a:hover { text-decoration: underline; }
-        @media (max-width: 640px) {
-            header h1 { font-size: 1.75rem; }
-            .report-card { flex-direction: column; align-items: flex-start; gap: 12px; }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>威胁情报</title>
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="RSS/cve_rss.xml">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0d1117;
+  --surface:#161b22;
+  --border:#30363d;
+  --text:#e6edf3;
+  --text-muted:#8b949e;
+  --accent:#58a6ff;
+  --accent2:#a371f7;
+}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  min-height:100vh;
+  line-height:1.6;
+}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* Header */
+.site-header{
+  background:var(--surface);
+  border-bottom:1px solid var(--border);
+  padding:0 24px;
+  position:sticky;top:0;z-index:100;
+}
+.header-inner{
+  max-width:1200px;margin:0 auto;
+  display:flex;align-items:center;justify-content:space-between;
+  height:60px;gap:16px;
+}
+.header-brand{display:flex;align-items:center;gap:12px}
+.header-brand-icon{
+  width:32px;height:32px;
+  background:linear-gradient(135deg,#58a6ff,#a371f7);
+  border-radius:8px;display:flex;align-items:center;justify-content:center;
+  font-size:16px;flex-shrink:0;
+}
+.header-title{font-size:1.1rem;font-weight:700;letter-spacing:-.02em}
+.header-sub{font-size:.75rem;color:var(--text-muted)}
+.header-actions{display:flex;align-items:center;gap:8px}
+.rss-btn{
+  display:inline-flex;align-items:center;gap:6px;
+  background:var(--surface);border:1px solid var(--border);
+  color:var(--text-muted);padding:6px 12px;border-radius:8px;
+  font-size:.75rem;transition:all .2s;
+}
+.rss-btn:hover{border-color:var(--accent);color:var(--accent);text-decoration:none}
+
+/* Stats Bar */
+.stats-bar{
+  max-width:1200px;margin:24px auto 0;
+  padding:0 24px;
+  display:flex;gap:12px;flex-wrap:wrap;
+}
+.stat-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:16px 20px;
+  display:flex;align-items:center;gap:12px;
+  flex:1;min-width:140px;
+}
+.stat-icon{font-size:1.4rem}
+.stat-val{font-size:1.5rem;font-weight:700;line-height:1}
+.stat-label{font-size:.7rem;color:var(--text-muted);margin-top:2px}
+
+/* Main Container */
+.main-container{
+  max-width:1200px;margin:20px auto;
+  padding:0 24px 48px;
+}
+
+/* Report Cards */
+.report-cards{display:flex;flex-direction:column;gap:10px}
+.report-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:16px 20px;
+  transition:border-color .2s,transform .2s;
+  animation:fadeIn .3s ease-out;
+}
+.report-card:hover{border-color:var(--accent)}
+
+.report-card-header{
+  display:flex;align-items:flex-start;justify-content:space-between;
+  margin-bottom:10px;gap:12px;flex-wrap:wrap;
+}
+.report-date-block{display:flex;flex-direction:column;gap:2px}
+.report-date{font-size:1.05rem;font-weight:700;color:var(--text);}
+.report-date-link{color:var(--accent);font-size:.8rem}
+.report-date-link:hover{text-decoration:underline}
+.report-badges{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.badge{
+  display:inline-flex;align-items:center;gap:4px;
+  padding:3px 10px;border-radius:20px;font-size:.72rem;font-weight:600;
+}
+.badge-total{background:rgba(88,166,255,.15);color:var(--accent)}
+.badge-source{background:rgba(163,113,247,.15);color:var(--accent2)}
+
+.report-stats{display:flex;gap:16px;flex-wrap:wrap}
+.report-stat{display:flex;align-items:center;gap:6px;font-size:.8rem;color:var(--text-muted);}
+.report-stat strong{font-weight:600;color:var(--text)}
+
+/* Empty State */
+.empty-state{text-align:center;padding:60px 20px;color:var(--text-muted);}
+.empty-state-icon{font-size:3rem;margin-bottom:12px}
+.empty-state-text{font-size:.9rem}
+
+/* Footer */
+.site-footer{border-top:1px solid var(--border);text-align:center;padding:24px;color:var(--text-muted);font-size:.8rem;}
+.site-footer a{color:var(--accent)}
+
+/* Animations */
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+/* Responsive */
+@media(max-width:768px){
+  body{padding:0 12px}
+  .header-inner{flex-wrap:wrap;height:auto;padding:12px 0}
+  .stats-bar{gap:8px}
+  .stat-card{min-width:120px;padding:12px}
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+</style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>🔒 威胁情报</h1>
-            <div class="subtitle">威胁情报汇总</div>
-        </header>
 
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="label">周报数</div>
-                <div class="value">{{ weekly_reports|length }}</div>
-            </div>
-            <div class="stat-card">
-                <div class="label">日报数</div>
-                <div class="value">{{ daily_reports|length }}</div>
-            </div>
-            <div class="stat-card">
-                <div class="label">总报告数</div>
-                <div class="value">{{ weekly_reports|length + daily_reports|length }}</div>
-            </div>
-        </div>
-
-        <div class="section-title">📋 每日威胁情报</div>
-        {% if daily_reports %}
-            <div class="report-list">
-                {% for report in daily_reports %}
-                <div class="report-card">
-                    <a href="{{ report.path }}" class="report-link" target="_blank">{{ report.date }}</a>
-                    <div class="report-meta">
-                        <span><strong class="report-count">{{ report.count }}</strong> 个漏洞</span>
-                        <a href="{{ report.path }}" target="_blank">查看详情 →</a>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        {% else %}
-            <div class="empty-state">暂无每日威胁情报</div>
-        {% endif %}
-
-        <div class="section-title">📋 每周威胁情报</div>
-        {% if weekly_reports %}
-            <div class="report-list">
-                {% for report in weekly_reports %}
-                <div class="report-card">
-                    <a href="{{ report.path }}" class="report-link" target="_blank">{{ report.date }}</a>
-                    <div class="report-meta">
-                        <span><strong class="report-count">{{ report.count }}</strong> 个漏洞</span>
-                        <a href="{{ report.path }}" target="_blank">查看详情 →</a>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        {% else %}
-            <div class="empty-state">暂无每周威胁情报</div>
-        {% endif %}
-
-        <footer>
-            <p>Power By 东方隐侠安全团队 · <a href="https://www.dfyxsec.com/" target="_blank">隐侠安全客栈</a></p>
-        </footer>
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-brand">
+      <div class="header-brand-icon">🔒</div>
+      <div>
+        <div class="header-title">威胁情报</div>
+        <div class="header-sub">每日自动化追踪 CVE 漏洞情报</div>
+      </div>
     </div>
+    <div class="header-actions">
+      <a class="rss-btn" href="RSS/cve_rss.xml" title="订阅RSS Feed">RSS</a>
+    </div>
+  </div>
+</header>
+
+<div class="stats-bar">
+  <div class="stat-card">
+    <div class="stat-icon">📅</div>
+    <div><div class="stat-val">{{ weekly_reports|length + daily_reports|length }}</div><div class="stat-label">总报告数</div></div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon">📋</div>
+    <div><div class="stat-val">{{ daily_reports|length }}</div><div class="stat-label">日报数</div></div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon">🔖</div>
+    <div><div class="stat-val">{{ weekly_reports|length }}</div><div class="stat-label">周报数</div></div>
+  </div>
+</div>
+
+<div class="main-container">
+  <h2 style="color:var(--text);margin:24px 0 16px;font-size:1rem;font-weight:600;">📋 日报列表</h2>
+  {% if daily_reports %}
+  <div class="report-cards">
+    {% for report in daily_reports %}
+    <div class="report-card">
+      <div class="report-card-header">
+        <div class="report-date-block">
+          <div class="report-date">📅 {{ report.date }}</div>
+        </div>
+        <div class="report-badges">
+          <span class="badge badge-total">📦 {{ report.count }} 个漏洞</span>
+        </div>
+      </div>
+      <div class="report-stats">
+        <div class="report-stat">
+          <a href="{{ report.path }}" class="report-date-link" target="_blank">查看日报 →</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-state">
+    <div class="empty-state-icon">📭</div>
+    <div class="empty-state-text">暂无日报数据</div>
+  </div>
+  {% endif %}
+
+  {% if weekly_reports %}
+  <h2 style="color:var(--text);margin:32px 0 16px;font-size:1rem;font-weight:600;">📆 周报</h2>
+  <div class="report-cards">
+    {% for report in weekly_reports %}
+    <div class="report-card">
+      <div class="report-card-header">
+        <div class="report-date-block">
+          <div class="report-date">📅 {{ report.date }}</div>
+        </div>
+        <div class="report-badges">
+          <span class="badge badge-total">📦 {{ report.count }} 个漏洞</span>
+        </div>
+      </div>
+      <div class="report-stats">
+        <div class="report-stat">
+          <a href="{{ report.path }}" class="report-date-link" target="_blank">查看周报 →</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+
+<footer class="site-footer">
+  <p>Power By 东方隐侠安全团队 · <a href="https://www.dfyxsec.com/" target="_blank">隐侠安全客栈</a></p>
+</footer>
+
 </body>
 </html>
     '''
