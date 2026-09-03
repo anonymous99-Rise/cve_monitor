@@ -92,16 +92,13 @@ a:hover{text-decoration:underline}
   animation:fadeIn .3s ease-out;
 }
 .report-card:hover{border-color:var(--accent)}
-.report-card.hidden{display:none}
 
 .report-card-header{
   display:flex;align-items:flex-start;justify-content:space-between;
   margin-bottom:10px;gap:12px;flex-wrap:wrap;
 }
 .report-date-block{display:flex;flex-direction:column;gap:2px}
-.report-date{
-  font-size:1.05rem;font-weight:700;color:var(--text);
-}
+.report-date{font-size:1.05rem;font-weight:700;color:var(--text);}
 .report-date-link{color:var(--accent);font-size:.8rem}
 .report-date-link:hover{text-decoration:underline}
 .report-badges{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
@@ -112,29 +109,17 @@ a:hover{text-decoration:underline}
 .badge-total{background:rgba(88,166,255,.15);color:var(--accent)}
 .badge-source{background:rgba(163,113,247,.15);color:var(--accent2)}
 
-.report-stats{
-  display:flex;gap:16px;flex-wrap:wrap;
-}
-.report-stat{
-  display:flex;align-items:center;gap:6px;
-  font-size:.8rem;color:var(--text-muted);
-}
-.report-stat-num{font-weight:600;color:var(--text)}
+.report-stats{display:flex;gap:16px;flex-wrap:wrap}
+.report-stat{display:flex;align-items:center;gap:6px;font-size:.8rem;color:var(--text-muted);}
+.report-stat strong{font-weight:600;color:var(--text)}
 
 /* Empty State */
-.empty-state{
-  text-align:center;padding:60px 20px;
-  color:var(--text-muted);
-}
+.empty-state{text-align:center;padding:60px 20px;color:var(--text-muted);}
 .empty-state-icon{font-size:3rem;margin-bottom:12px}
 .empty-state-text{font-size:.9rem}
 
 /* Footer */
-.site-footer{
-  border-top:1px solid var(--border);
-  text-align:center;padding:24px;
-  color:var(--text-muted);font-size:.8rem;
-}
+.site-footer{border-top:1px solid var(--border);text-align:center;padding:24px;color:var(--text-muted);font-size:.8rem;}
 .site-footer a{color:var(--accent)}
 
 /* Animations */
@@ -190,6 +175,7 @@ a:hover{text-decoration:underline}
 </div>
 
 <div class="main-container">
+  <h2 style="color:var(--text);margin:24px 0 16px;font-size:1rem;font-weight:600;">📋 日报列表</h2>
   {% if daily_reports %}
   <div class="report-cards">
     {% for report in daily_reports %}
