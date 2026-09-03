@@ -3,912 +3,592 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>威胁情报 - 2026-09-03</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>威胁情报 2026-09-03</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+        :root{
+            --bg:#0d1117;
+            --surface:#161b22;
+            --border:#30363d;
+            --text:#e6edf3;
+            --text-muted:#8b949e;
+            --accent:#58a6ff;
+            --accent2:#a371f7;
+            --cve:#f85149;
+            --severity-high:#f85149;
+            --severity-medium:#ffa657;
+            --severity-low:#3fb950;
+        }
+        body{
+            font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;
+            background:var(--bg);
+            color:var(--text);
+            min-height:100vh;
+            line-height:1.6;
+        }
+        a{color:var(--accent);text-decoration:none}
+        a:hover{text-decoration:underline}
+
+        /* Header */
+        .site-header{
+            background:var(--surface);
+            border-bottom:1px solid var(--border);
+            padding:0 24px;
+            position:sticky;top:0;z-index:100;
+        }
+        .header-inner{
+            max-width:1200px;margin:0 auto;
+            display:flex;align-items:center;justify-content:space-between;
+            height:60px;gap:16px;
+        }
+        .header-brand{display:flex;align-items:center;gap:12px}
+        .header-brand-icon{
+            width:32px;height:32px;
+            background:linear-gradient(135deg,#58a6ff,#a371f7);
+            border-radius:8px;display:flex;align-items:center;justify-content:center;
+            font-size:16px;flex-shrink:0;
+        }
+        .header-title{font-size:1.1rem;font-weight:700;letter-spacing:-.02em}
+        .header-sub{font-size:.75rem;color:var(--text-muted)}
+        .header-actions{display:flex;align-items:center;gap:8px}
+        .back-btn{
+            display:inline-flex;align-items:center;gap:6px;
+            background:var(--surface);border:1px solid var(--border);
+            color:var(--text-muted);padding:6px 12px;border-radius:8px;
+            font-size:.75rem;transition:all .2s;
+        }
+        .back-btn:hover{border-color:var(--accent);color:var(--accent);text-decoration:none}
+
+        /* Main Container */
+        .main-container{
+            max-width:1200px;margin:0 auto;
+            padding:24px;
         }
 
-        :root {
-            --primary: #4f46e5;
-            --primary-hover: #4338ca;
-            --success: #10b981;
-            --warning: #f59e0b;
-            --danger: #ef4444;
-            --gray-50: #f9fafb;
-            --gray-100: #f3f4f6;
-            --gray-200: #e5e7eb;
-            --gray-300: #d1d5db;
-            --gray-400: #9ca3af;
-            --gray-500: #6b7280;
-            --gray-600: #4b5563;
-            --gray-700: #374151;
-            --gray-800: #1f2937;
-            --gray-900: #111827;
-            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-            --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-            --radius: 12px;
+        /* Stats Bar */
+        .stats-bar{
+            margin-bottom:24px;
+            display:flex;gap:12px;flex-wrap:wrap;
+        }
+        .stat-card{
+            background:var(--surface);border:1px solid var(--border);
+            border-radius:12px;padding:16px 20px;
+            display:flex;align-items:center;gap:12px;
+            flex:1;min-width:140px;
+        }
+        .stat-icon{font-size:1.4rem}
+        .stat-val{font-size:1.5rem;font-weight:700;line-height:1}
+        .stat-label{font-size:.7rem;color:var(--text-muted);margin-top:2px}
+
+        /* Report Cards */
+        .report-cards{display:flex;flex-direction:column;gap:10px}
+        .report-card{
+            background:var(--surface);border:1px solid var(--border);
+            border-radius:12px;padding:16px 20px;
+            transition:border-color .2s,transform .2s;
+            animation:fadeIn .3s ease-out;
+        }
+        .report-card:hover{border-color:var(--accent)}
+
+        .report-card-header{
+            display:flex;align-items:flex-start;justify-content:space-between;
+            margin-bottom:10px;gap:12px;flex-wrap:wrap;
+        }
+        .report-date-block{display:flex;flex-direction:column;gap:2px}
+        .report-title{
+            font-size:1.2rem;font-weight:600;color:var(--text);
+            text-decoration:none;
+        }
+        .report-title:hover{color:var(--accent);text-decoration:underline}
+        .report-meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+        .report-meta-item{font-size:.8rem;color:var(--text-muted)}
+        .report-meta-item strong{color:var(--text)}
+
+        .report-badges{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+        .badge{
+            display:inline-flex;align-items:center;gap:4px;
+            padding:3px 10px;border-radius:20px;font-size:.72rem;font-weight:600;
+        }
+        .badge-total{background:rgba(88,166,255,.15);color:var(--accent)}
+        .badge-source{background:rgba(163,113,247,.15);color:var(--accent2)}
+
+        /* Empty State */
+        .empty-state{
+            text-align:center;padding:60px 20px;
+            color:var(--text-muted);
+        }
+        .empty-state-icon{font-size:3rem;margin-bottom:12px}
+        .empty-state-text{font-size:.9rem}
+
+        /* Footer */
+        .site-footer{
+            border-top:1px solid var(--border);
+            text-align:center;padding:24px;
+            color:var(--text-muted);font-size:.8rem;
+        }
+        .site-footer a{color:var(--accent)}
+
+        /* Animations */
+        @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+        /* Responsive */
+        @media(max-width:768px){
+            .main-container{padding:16px}
+            .header-inner{flex-wrap:wrap;height:auto;padding:12px 0}
+            .stats-bar{gap:8px}
+            .stat-card{min-width:120px;padding:12px}
         }
 
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            color: var(--gray-800);
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        /* 头部 */
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: white;
-            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
-            margin-bottom: 10px;
-        }
-
-        header .date-badge {
-            display: inline-block;
-            background: rgba(255,255,255,0.2);
-            backdrop-filter: blur(10px);
-            padding: 8px 24px;
-            border-radius: 50px;
-            color: white;
-            font-size: 1.1rem;
-            font-weight: 500;
-        }
-
-        /* 统计卡片 */
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 16px;
-            margin-bottom: 32px;
-        }
-
-        .stat-card {
-            background: white;
-            border-radius: var(--radius);
-            padding: 24px;
-            box-shadow: var(--shadow-lg);
-            text-align: center;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-
-        .stat-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-        }
-
-        .stat-card .label {
-            font-size: 0.875rem;
-            color: var(--gray-500);
-            font-weight: 500;
-            margin-bottom: 8px;
-        }
-
-        .stat-card .value {
-            font-size: 2.5rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, var(--primary), #8b5cf6);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .stat-card .value.warning {
-            background: linear-gradient(135deg, var(--warning), #f97316);
-            -webkit-background-clip: text;
-            background-clip: text;
-        }
-
-        /* 漏洞列表 */
-        .vuln-list {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-        }
-
-        .vuln-card {
-            background: white;
-            border-radius: var(--radius);
-            padding: 24px;
-            box-shadow: var(--shadow);
-            transition: all 0.2s;
-            border-left: 4px solid var(--primary);
-        }
-
-        .vuln-card:hover {
-            box-shadow: var(--shadow-md);
-            transform: translateX(4px);
-        }
-
-        .vuln-card .title {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: var(--gray-800);
-            margin-bottom: 12px;
-            display: flex;
-            align-items: flex-start;
-            gap: 8px;
-        }
-
-        .vuln-card .title a {
-            color: var(--primary);
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-
-        .vuln-card .title a:hover {
-            color: var(--primary-hover);
-            text-decoration: underline;
-        }
-
-        .vuln-meta {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 12px;
-        }
-
-        .vuln-meta-item {
-            display: flex;
-            flex-direction: column;
-            gap: 2px;
-        }
-
-        .vuln-meta-item .label {
-            font-size: 0.75rem;
-            color: var(--gray-400);
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .vuln-meta-item .value {
-            font-size: 0.9rem;
-            color: var(--gray-700);
-            font-weight: 500;
-        }
-
-        .vuln-meta-item .value.cve {
-            font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
-            color: var(--danger);
-        }
-
-        /* 来源标签 */
-        .source-tag {
-            display: inline-flex;
-            align-items: center;
-            padding: 4px 12px;
-            border-radius: 50px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            background: var(--gray-100);
-            color: var(--gray-600);
-        }
-
-        /* 空状态 */
-        .empty-state {
-            background: white;
-            border-radius: var(--radius);
-            padding: 60px 20px;
-            text-align: center;
-            box-shadow: var(--shadow);
-        }
-
-        .empty-state h3 {
-            color: var(--gray-500);
-            margin-bottom: 8px;
-        }
-
-        .empty-state p {
-            color: var(--gray-400);
-        }
-
-        /* 页脚 */
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            padding: 20px;
-            color: rgba(255,255,255,0.7);
-            font-size: 0.9rem;
-        }
-
-        footer a {
-            color: white;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        /* 响应式 */
-        @media (max-width: 640px) {
-            header h1 {
-                font-size: 1.75rem;
-            }
-
-            .stat-card .value {
-                font-size: 2rem;
-            }
-
-            .vuln-card {
-                padding: 16px;
-            }
-
-            .vuln-meta {
-                grid-template-columns: 1fr;
-            }
-        }
+        /* Scrollbar */
+        ::-webkit-scrollbar{width:4px}
+        ::-webkit-scrollbar-track{background:transparent}
+        ::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>🔒 威胁情报</h1>
-            <span class="date-badge">2026-09-03</span>
-        </header>
 
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="label">漏洞总数</div>
-                <div class="value">31</div>
+<header class="site-header">
+    <div class="header-inner">
+        <div class="header-brand">
+            <div class="header-brand-icon">🔒</div>
+            <div>
+                <div class="header-title">威胁情报 2026-09-03</div>
+                <div class="header-sub">漏洞情报 · 最后更新：2026-09-03 09:33:03</div>
             </div>
-            
-            <div class="stat-card">
-                <div class="label">昨日漏洞</div>
-                <div class="value warning">0</div>
-            </div>
-            
         </div>
-
-        <div class="vuln-list">
-            
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.oscs1024.com/hd/MPS-nx4g-m97a" target="_blank">OpenFang内存耗尽漏洞</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-84888</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">OSCS1024漏洞库</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.oscs1024.com/hd/MPS-5cm6-8onp" target="_blank">Agent-S OCR资源耗尽漏洞</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-84886</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">OSCS1024漏洞库</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.oscs1024.com/hd/MPS-2pr5-uonh" target="_blank">Agent-S拒绝服务漏洞</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-84885</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">OSCS1024漏洞库</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.oscs1024.com/hd/MPS-7vni-ltm3" target="_blank">Agent-S动作参数DoS</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-84887</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">OSCS1024漏洞库</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.oscs1024.com/hd/MPS-ryug-08l9" target="_blank">Ion-C不受控递归漏洞</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-84851</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">OSCS1024漏洞库</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.oscs1024.com/hd/MPS-jgot-alqp" target="_blank">fast-uri主机混淆漏洞</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-84394</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">OSCS1024漏洞库</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.oscs1024.com/hd/MPS-kry8-zsgv" target="_blank">Jenkins配置反序列化远程代码执行漏洞</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-84645</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">OSCS1024漏洞库</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://cybersecuritynews.com/gitspawn-flaws-execute-code/" target="_blank">Hermes Agent 仓库配置命令执行漏洞</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-71963</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">OSCS1024漏洞库</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://github.com/advisories/GHSA-8mgp-746c-j5xp" target="_blank">NLTK路径穿越绕过沙箱漏洞</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-81726</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">OSCS1024漏洞库</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://github.com/advisories/GHSA-cw6x-m8jw-qmrh" target="_blank">NLTK 拒绝服务漏洞</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-81724</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">OSCS1024漏洞库</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-19953" target="_blank">URI versions before 5.36 for Perl encode non-NFC host names to non-standard punycode labels via missing normalization in nameprep</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-19953</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-13732" target="_blank">Gdb: gdb: out-of-bounds write in stabs parser read_member_functions() via crafted elf</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-13732</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-75538" target="_blank">A Signed Length Overflow in Erlang/OTP's inet TCP Driver Overflows the Receive Buffer Into BEAM VM Memory From an Unauthenticated Peer</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-75538</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-74994" target="_blank">inets, httpd: Authentication Bypass via Directory Namespace Collapse in httpd mod_auth</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-74994</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-74835" target="_blank">inets,httpd: Memory Exhaustion via Unenforced max_body_size During Chunked Body Reception</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-74835</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-73812" target="_blank">inets, httpd: HTTP Request Smuggling via Transfer-Encoding and Content-Length</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-73812</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-73276" target="_blank">inets, httpd: HTTP Request Smuggling via Whitespace-Before-Colon Header Dropping i</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-73276</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-73270" target="_blank">httpd mod_auth directory protection bypassed by request path casing on case-insensitive filesystems</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-73270</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-71562" target="_blank">httpc does not bound server-supplied numeric header values before integer conversion</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-71562</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-71380" target="_blank">httpd applies no timeout while receiving a request body, parking a worker on a stalled client</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-71380</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-70409" target="_blank">eldap does not bound the port component of a referral URL before integer conversion</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-70409</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-69664" target="_blank">httpd parks a request worker indefinitely on a malformed chunk size sent after the headers</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-69664</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-66835" target="_blank">httpd mod_auth directory protection bypassed by a doubled slash in the request path</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-66835</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-66357" target="_blank">inets,httpd:HTTP Request Smuggling via obs-fold Header Continuation</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-66357</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-59696" target="_blank">uri_string does not bound the port component of a URI before integer conversion</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-59696</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-55951" target="_blank">httpc memory exhaustion via unbounded response header accumulation</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-55951</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-72649" target="_blank">Deserialization of Untrusted Data in Elasticsearch Leading to Remote Code Execution</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-72649</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-56143" target="_blank">Allocation of Resources Without Limits or Throttling in Elasticsearch Leading to Denial of Service</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-56143</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-78607" target="_blank">Missing Authorization in Elasticsearch Leading to Information Disclosure</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-78607</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://www.cve.org/CVERecord?id=CVE-2026-14957" target="_blank">FIPS mode assertion failure via malicious CERT payload</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">CVE-2026-14957</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微软安全响应中心</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="vuln-card">
-                    <div class="title">
-                        <a href="https://x.threatbook.com/v5/vul/XVE-2026-55220" target="_blank">Next.js 远程代码执行漏洞</a>
-                    </div>
-                    <div class="vuln-meta">
-                        <div class="vuln-meta-item">
-                            <span class="label">编号</span>
-                            <span class="value cve">XVE-2026-55220</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">来源</span>
-                            <span class="source-tag">微步</span>
-                        </div>
-                        <div class="vuln-meta-item">
-                            <span class="label">时间</span>
-                            <span class="value">2026-09-03</span>
-                        </div>
-                    </div>
-                </div>
-                
-            
+        <div class="header-actions">
+            <a href="index.html" class="back-btn">← 返回首页</a>
         </div>
-
-        <footer>
-            <p>Power By 东方隐侠安全团队 · <a href="https://www.dfyxsec.com/" target="_blank">隐侠安全客栈</a></p>
-        </footer>
     </div>
+</header>
+
+<div class="main-container">
+    <div class="stats-bar">
+        <div class="stat-card">
+            <div class="stat-icon">📦</div>
+            <div><div class="stat-val">31</div><div class="stat-label">漏洞总数</div></div>
+        </div>
+        
+        <div class="stat-card">
+            <div class="stat-icon">📅</div>
+            <div><div class="stat-val">0</div><div class="stat-label">昨日漏洞</div></div>
+        </div>
+        
+    </div>
+
+    
+    <div class="report-cards">
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-nx4g-m97a" class="report-title" target="_blank">OpenFang内存耗尽漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-84888</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-5cm6-8onp" class="report-title" target="_blank">Agent-S OCR资源耗尽漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-84886</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-2pr5-uonh" class="report-title" target="_blank">Agent-S拒绝服务漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-84885</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-7vni-ltm3" class="report-title" target="_blank">Agent-S动作参数DoS</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-84887</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-ryug-08l9" class="report-title" target="_blank">Ion-C不受控递归漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-84851</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-jgot-alqp" class="report-title" target="_blank">fast-uri主机混淆漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-84394</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-kry8-zsgv" class="report-title" target="_blank">Jenkins配置反序列化远程代码执行漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-84645</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://cybersecuritynews.com/gitspawn-flaws-execute-code/" class="report-title" target="_blank">Hermes Agent 仓库配置命令执行漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-71963</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://github.com/advisories/GHSA-8mgp-746c-j5xp" class="report-title" target="_blank">NLTK路径穿越绕过沙箱漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-81726</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://github.com/advisories/GHSA-cw6x-m8jw-qmrh" class="report-title" target="_blank">NLTK 拒绝服务漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-81724</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-19953" class="report-title" target="_blank">URI versions before 5.36 for Perl encode non-NFC host names to non-standard punycode labels via missing normalization in nameprep</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-19953</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-13732" class="report-title" target="_blank">Gdb: gdb: out-of-bounds write in stabs parser read_member_functions() via crafted elf</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-13732</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-75538" class="report-title" target="_blank">A Signed Length Overflow in Erlang/OTP's inet TCP Driver Overflows the Receive Buffer Into BEAM VM Memory From an Unauthenticated Peer</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-75538</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-74994" class="report-title" target="_blank">inets, httpd: Authentication Bypass via Directory Namespace Collapse in httpd mod_auth</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-74994</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-74835" class="report-title" target="_blank">inets,httpd: Memory Exhaustion via Unenforced max_body_size During Chunked Body Reception</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-74835</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-73812" class="report-title" target="_blank">inets, httpd: HTTP Request Smuggling via Transfer-Encoding and Content-Length</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-73812</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-73276" class="report-title" target="_blank">inets, httpd: HTTP Request Smuggling via Whitespace-Before-Colon Header Dropping i</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-73276</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-73270" class="report-title" target="_blank">httpd mod_auth directory protection bypassed by request path casing on case-insensitive filesystems</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-73270</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-71562" class="report-title" target="_blank">httpc does not bound server-supplied numeric header values before integer conversion</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-71562</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-71380" class="report-title" target="_blank">httpd applies no timeout while receiving a request body, parking a worker on a stalled client</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-71380</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-70409" class="report-title" target="_blank">eldap does not bound the port component of a referral URL before integer conversion</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-70409</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-69664" class="report-title" target="_blank">httpd parks a request worker indefinitely on a malformed chunk size sent after the headers</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-69664</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-66835" class="report-title" target="_blank">httpd mod_auth directory protection bypassed by a doubled slash in the request path</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-66835</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-66357" class="report-title" target="_blank">inets,httpd:HTTP Request Smuggling via obs-fold Header Continuation</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-66357</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-59696" class="report-title" target="_blank">uri_string does not bound the port component of a URI before integer conversion</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-59696</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-55951" class="report-title" target="_blank">httpc memory exhaustion via unbounded response header accumulation</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-55951</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-72649" class="report-title" target="_blank">Deserialization of Untrusted Data in Elasticsearch Leading to Remote Code Execution</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-72649</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-56143" class="report-title" target="_blank">Allocation of Resources Without Limits or Throttling in Elasticsearch Leading to Denial of Service</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-56143</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-78607" class="report-title" target="_blank">Missing Authorization in Elasticsearch Leading to Information Disclosure</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-78607</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-14957" class="report-title" target="_blank">FIPS mode assertion failure via malicious CERT payload</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-14957</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://x.threatbook.com/v5/vul/XVE-2026-55220" class="report-title" target="_blank">Next.js 远程代码执行漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>XVE-2026-55220</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微步</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-03</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</div>
+
+<footer class="site-footer">
+    <p>Power By 东方隐侠安全团队 · <a href="https://www.dfyxsec.com/" target="_blank">隐侠安全客栈</a></p>
+</footer>
+
 </body>
 </html>

@@ -15,10 +15,6 @@
   --text-muted:#8b949e;
   --accent:#58a6ff;
   --accent2:#a371f7;
-  --cve:#f85149;
-  --severity-high:#f85149;
-  --severity-medium:#ffa657;
-  --severity-low:#3fb950;
 }
 body{
   font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;
@@ -59,7 +55,6 @@ a:hover{text-decoration:underline}
   font-size:.75rem;transition:all .2s;
 }
 .rss-btn:hover{border-color:var(--accent);color:var(--accent);text-decoration:none}
-.rss-btn svg{width:14px;height:14px}
 
 /* Stats Bar */
 .stats-bar{
@@ -151,10 +146,7 @@ a:hover{text-decoration:underline}
       </div>
     </div>
     <div class="header-actions">
-      <a class="rss-btn" href="RSS/cve_rss.xml" title="订阅RSS Feed">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
-        RSS
-      </a>
+      <a class="rss-btn" href="RSS/cve_rss.xml" title="订阅RSS Feed">RSS</a>
     </div>
   </div>
 </header>
@@ -162,69 +154,43 @@ a:hover{text-decoration:underline}
 <div class="stats-bar">
   <div class="stat-card">
     <div class="stat-icon">📅</div>
-    <div><div class="stat-val">{{ weekly_reports|length + daily_reports|length }}</div><div class="stat-label">总报告数</div></div>
+    <div><div class="stat-val">1</div><div class="stat-label">总报告数</div></div>
   </div>
   <div class="stat-card">
     <div class="stat-icon">📋</div>
-    <div><div class="stat-val">{{ daily_reports|length }}</div><div class="stat-label">日报数</div></div>
+    <div><div class="stat-val">1</div><div class="stat-label">日报数</div></div>
   </div>
   <div class="stat-card">
     <div class="stat-icon">🔖</div>
-    <div><div class="stat-val">{{ weekly_reports|length }}</div><div class="stat-label">周报数</div></div>
+    <div><div class="stat-val">0</div><div class="stat-label">周报数</div></div>
   </div>
 </div>
 
 <div class="main-container">
   <h2 style="color:var(--text);margin:24px 0 16px;font-size:1rem;font-weight:600;">📋 日报列表</h2>
-  {% if daily_reports %}
+  
   <div class="report-cards">
-    {% for report in daily_reports %}
+    
     <div class="report-card">
       <div class="report-card-header">
         <div class="report-date-block">
-          <div class="report-date">📅 {{ report.date }}</div>
+          <div class="report-date">📅 2026-09-03</div>
         </div>
         <div class="report-badges">
-          <span class="badge badge-total">📦 {{ report.count }} 个漏洞</span>
+          <span class="badge badge-total">📦 31 个漏洞</span>
         </div>
       </div>
       <div class="report-stats">
         <div class="report-stat">
-          <a href="{{ report.path }}" class="report-date-link" target="_blank">查看日报 →</a>
+          <a href="archive/2026-09-03/Daily_2026-09-03.html" class="report-date-link" target="_blank">查看日报 →</a>
         </div>
       </div>
     </div>
-    {% endfor %}
+    
   </div>
-  {% else %}
-  <div class="empty-state">
-    <div class="empty-state-icon">📭</div>
-    <div class="empty-state-text">暂无日报数据</div>
-  </div>
-  {% endif %}
+  
 
-  {% if weekly_reports %}
-  <h2 style="color:var(--text);margin:32px 0 16px;font-size:1rem;font-weight:600;">📆 周报</h2>
-  <div class="report-cards">
-    {% for report in weekly_reports %}
-    <div class="report-card">
-      <div class="report-card-header">
-        <div class="report-date-block">
-          <div class="report-date">📅 {{ report.date }}</div>
-        </div>
-        <div class="report-badges">
-          <span class="badge badge-total">📦 {{ report.count }} 个漏洞</span>
-        </div>
-      </div>
-      <div class="report-stats">
-        <div class="report-stat">
-          <a href="{{ report.path }}" class="report-date-link" target="_blank">查看周报 →</a>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-  {% endif %}
+  
 </div>
 
 <footer class="site-footer">
@@ -233,3 +199,4 @@ a:hover{text-decoration:underline}
 
 </body>
 </html>
+    
