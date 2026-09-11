@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>威胁情报 2026-09-11</title>
+    <style>
+        *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+        :root{
+            --bg:#0d1117;
+            --surface:#161b22;
+            --border:#30363d;
+            --text:#e6edf3;
+            --text-muted:#8b949e;
+            --accent:#58a6ff;
+            --accent2:#a371f7;
+            --cve:#f85149;
+            --severity-high:#f85149;
+            --severity-medium:#ffa657;
+            --severity-low:#3fb950;
+        }
+        body{
+            font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;
+            background:var(--bg);
+            color:var(--text);
+            min-height:100vh;
+            line-height:1.6;
+        }
+        a{color:var(--accent);text-decoration:none}
+        a:hover{text-decoration:underline}
+
+        /* Header */
+        .site-header{
+            background:var(--surface);
+            border-bottom:1px solid var(--border);
+            padding:0 24px;
+            position:sticky;top:0;z-index:100;
+        }
+        .header-inner{
+            max-width:1200px;margin:0 auto;
+            display:flex;align-items:center;justify-content:space-between;
+            height:60px;gap:16px;
+        }
+        .header-brand{display:flex;align-items:center;gap:12px}
+        .header-brand-icon{
+            width:32px;height:32px;
+            background:linear-gradient(135deg,#58a6ff,#a371f7);
+            border-radius:8px;display:flex;align-items:center;justify-content:center;
+            font-size:16px;flex-shrink:0;
+        }
+        .header-title{font-size:1.1rem;font-weight:700;letter-spacing:-.02em}
+        .header-sub{font-size:.75rem;color:var(--text-muted)}
+        .header-actions{display:flex;align-items:center;gap:8px}
+        .back-btn{
+            display:inline-flex;align-items:center;gap:6px;
+            background:var(--surface);border:1px solid var(--border);
+            color:var(--text-muted);padding:6px 12px;border-radius:8px;
+            font-size:.75rem;transition:all .2s;
+        }
+        .back-btn:hover{border-color:var(--accent);color:var(--accent);text-decoration:none}
+
+        /* Main Container */
+        .main-container{
+            max-width:1200px;margin:0 auto;
+            padding:24px;
+        }
+
+        /* Stats Bar */
+        .stats-bar{
+            margin-bottom:24px;
+            display:flex;gap:12px;flex-wrap:wrap;
+        }
+        .stat-card{
+            background:var(--surface);border:1px solid var(--border);
+            border-radius:12px;padding:16px 20px;
+            display:flex;align-items:center;gap:12px;
+            flex:1;min-width:140px;
+        }
+        .stat-icon{font-size:1.4rem}
+        .stat-val{font-size:1.5rem;font-weight:700;line-height:1}
+        .stat-label{font-size:.7rem;color:var(--text-muted);margin-top:2px}
+
+        /* Report Cards */
+        .report-cards{display:flex;flex-direction:column;gap:10px}
+        .report-card{
+            background:var(--surface);border:1px solid var(--border);
+            border-radius:12px;padding:16px 20px;
+            transition:border-color .2s,transform .2s;
+            animation:fadeIn .3s ease-out;
+        }
+        .report-card:hover{border-color:var(--accent)}
+
+        .report-card-header{
+            display:flex;align-items:flex-start;justify-content:space-between;
+            margin-bottom:10px;gap:12px;flex-wrap:wrap;
+        }
+        .report-date-block{display:flex;flex-direction:column;gap:2px}
+        .report-title{
+            font-size:1.2rem;font-weight:600;color:var(--text);
+            text-decoration:none;
+        }
+        .report-title:hover{color:var(--accent);text-decoration:underline}
+        .report-meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+        .report-meta-item{font-size:.8rem;color:var(--text-muted)}
+        .report-meta-item strong{color:var(--text)}
+
+        .report-badges{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+        .badge{
+            display:inline-flex;align-items:center;gap:4px;
+            padding:3px 10px;border-radius:20px;font-size:.72rem;font-weight:600;
+        }
+        .badge-total{background:rgba(88,166,255,.15);color:var(--accent)}
+        .badge-source{background:rgba(163,113,247,.15);color:var(--accent2)}
+
+        /* Empty State */
+        .empty-state{
+            text-align:center;padding:60px 20px;
+            color:var(--text-muted);
+        }
+        .empty-state-icon{font-size:3rem;margin-bottom:12px}
+        .empty-state-text{font-size:.9rem}
+
+        /* Footer */
+        .site-footer{
+            border-top:1px solid var(--border);
+            text-align:center;padding:24px;
+            color:var(--text-muted);font-size:.8rem;
+        }
+        .site-footer a{color:var(--accent)}
+
+        /* Animations */
+        @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+        /* Responsive */
+        @media(max-width:768px){
+            .main-container{padding:16px}
+            .header-inner{flex-wrap:wrap;height:auto;padding:12px 0}
+            .stats-bar{gap:8px}
+            .stat-card{min-width:120px;padding:12px}
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar{width:4px}
+        ::-webkit-scrollbar-track{background:transparent}
+        ::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <div class="header-brand">
+            <div class="header-brand-icon">🔒</div>
+            <div>
+                <div class="header-title">威胁情报 2026-09-11</div>
+                <div class="header-sub">漏洞情报 · 最后更新：2026-09-11 12:54:21</div>
+            </div>
+        </div>
+        <div class="header-actions">
+            <a href="index.html" class="back-btn">← 返回首页</a>
+        </div>
+    </div>
+</header>
+
+<div class="main-container">
+    <div class="stats-bar">
+        <div class="stat-card">
+            <div class="stat-icon">📦</div>
+            <div><div class="stat-val">25</div><div class="stat-label">漏洞总数</div></div>
+        </div>
+        
+        <div class="stat-card">
+            <div class="stat-icon">📅</div>
+            <div><div class="stat-val">10</div><div class="stat-label">昨日漏洞</div></div>
+        </div>
+        
+    </div>
+
+    
+    <div class="report-cards">
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-3w4r-klvq" class="report-title" target="_blank">hbs 拒绝服务漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-87123</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-2lcu-bsvf" class="report-title" target="_blank">morgan 日志字段注入漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-87859</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-184l-qw3j" class="report-title" target="_blank">UAA OIDC白名单绕过提权漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-47839</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-256p-7uzk" class="report-title" target="_blank">Kirki存储型XSS漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-17037</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-qnsz-3ewm" class="report-title" target="_blank">a-blog cms 表单路径穿越漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-87727</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-thf1-jqv6" class="report-title" target="_blank">App Builder SSRF漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-19486</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-dyz1-lt8n" class="report-title" target="_blank">SICK Device Manager 任意代码执行漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-80469</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-4hq9-ipe6" class="report-title" target="_blank">BullSequana BMC root空密码漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2025-15679</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-pja7-w4c8" class="report-title" target="_blank">WeenyGenius 连接报文重放漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-89179</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.oscs1024.com/hd/MPS-d7lc-x09o" class="report-title" target="_blank">鎧鋒智慧對講系統账号枚举漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-89173</span>
+                        <span class="report-meta-item"><strong>来源：</strong>OSCS1024漏洞库</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-74448" class="report-title" target="_blank">drm/amdkfd: fix QID bit leak in pqm_create_queue()</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-74448</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-74445" class="report-title" target="_blank">drm/vmwgfx: reject DX_BIND_QUERY without a DX context</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-74445</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-80822" class="report-title" target="_blank">mailbox: mchp-ipc-sbi: Add null check for devm_kasprintf()</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-80822</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-80901" class="report-title" target="_blank">ipvs: fix the checksum validations</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-80901</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-74501" class="report-title" target="_blank">ALSA: usb-audio: fix use-after-free in ump_to_endpoint()</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-74501</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-80887" class="report-title" target="_blank">drm/vmwgfx: use check_add_overflow for shader size+offset bound</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-80887</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-74532" class="report-title" target="_blank">Bluetooth: btintel: Validate length before parsing diagnostics TLV</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-74532</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-80918" class="report-title" target="_blank">HID: core: fix number/pointer type confusion on long items</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-80918</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-80920" class="report-title" target="_blank">io_uring: defer eventfd signaling when queued from a wakeup handler</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-80920</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-80914" class="report-title" target="_blank">Bluetooth: ISO: fix use-after-free of listener socket in iso_conn_ready</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-80914</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-80917" class="report-title" target="_blank">PCI: host-generic: Fix NULL pointer dereference on 32-bit CAM systems</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-80917</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-80923" class="report-title" target="_blank">xhci: dbgtty: Fix unregister on tty_register_driver() failure</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-80923</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-80921" class="report-title" target="_blank">KVM: s390: vsie: zero stale crypto bits</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-80921</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://www.cve.org/CVERecord?id=CVE-2026-80925" class="report-title" target="_blank">vlan: fix skb_under_panic and races when toggling HW VLAN offload</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>CVE-2026-80925</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微软安全响应中心</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="report-card">
+            <div class="report-card-header">
+                <div class="report-date-block">
+                    <a href="https://x.threatbook.com/v5/vul/XVE-2026-46443" class="report-title" target="_blank">ClamAV PESpin 解包器堆缓冲区溢出漏洞</a>
+                    <div class="report-meta">
+                        <span class="report-meta-item"><strong>编号：</strong>XVE-2026-46443</span>
+                        <span class="report-meta-item"><strong>来源：</strong>微步</span>
+                        <span class="report-meta-item"><strong>时间：</strong>2026-09-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</div>
+
+<footer class="site-footer">
+    <p>Power By 东方隐侠安全团队 · <a href="https://www.dfyxsec.com/" target="_blank">隐侠安全客栈</a></p>
+</footer>
+
+</body>
+</html>
