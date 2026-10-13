@@ -5,215 +5,362 @@
         <link>https://github.com/anonymous99-Rise/cve_monitor</link>
         <description>威胁情报汇总 - 包含每日和每周威胁情报</description>
         <language>zh-CN</language>
-        <lastBuildDate>Fri, 09 Oct 2026 07:07:08 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2026 07:20:07 GMT</lastBuildDate>
 
         <item>
-            <title>CUPS 类管理双重释放漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-y3x4-r276</link>
-            <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-107886</guid>
+            <title>Weaver插件存储型XSS</title>
+            <link>https://www.oscs1024.com/hd/MPS-y9u4-67td</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-54870</guid>
             <description><![CDATA[
-                <h2>CUPS 类管理双重释放漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-107886</p>
+                <h2>Weaver插件存储型XSS</h2>
+                <p><strong>编号：</strong>CVE-2026-54870</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-y3x4-r276" target="_blank">https://www.oscs1024.com/hd/MPS-y3x4-r276</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-y9u4-67td" target="_blank">https://www.oscs1024.com/hd/MPS-y9u4-67td</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>CUPS 类管理双重释放漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-107886</p>
+                <h2>Weaver插件存储型XSS</h2>
+                <p><strong>编号：</strong>CVE-2026-54870</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-y3x4-r276" target="_blank">https://www.oscs1024.com/hd/MPS-y3x4-r276</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-y9u4-67td" target="_blank">https://www.oscs1024.com/hd/MPS-y9u4-67td</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>CUPS 拒绝服务漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-di6e-vm95</link>
-            <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-107885</guid>
+            <title>IMPress存储型XSS漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-7963-n8jd</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-54869</guid>
             <description><![CDATA[
-                <h2>CUPS 拒绝服务漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-107885</p>
+                <h2>IMPress存储型XSS漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-54869</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-di6e-vm95" target="_blank">https://www.oscs1024.com/hd/MPS-di6e-vm95</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-7963-n8jd" target="_blank">https://www.oscs1024.com/hd/MPS-7963-n8jd</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>CUPS 拒绝服务漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-107885</p>
+                <h2>IMPress存储型XSS漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-54869</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-di6e-vm95" target="_blank">https://www.oscs1024.com/hd/MPS-di6e-vm95</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-7963-n8jd" target="_blank">https://www.oscs1024.com/hd/MPS-7963-n8jd</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Microsoft Bookings 提权漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-x4ym-zive</link>
-            <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-94510</guid>
+            <title>FV Simpler SEO存储型XSS</title>
+            <link>https://www.oscs1024.com/hd/MPS-ouzt-cy51</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-54868</guid>
             <description><![CDATA[
-                <h2>Microsoft Bookings 提权漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-94510</p>
+                <h2>FV Simpler SEO存储型XSS</h2>
+                <p><strong>编号：</strong>CVE-2026-54868</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-x4ym-zive" target="_blank">https://www.oscs1024.com/hd/MPS-x4ym-zive</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-ouzt-cy51" target="_blank">https://www.oscs1024.com/hd/MPS-ouzt-cy51</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Microsoft Bookings 提权漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-94510</p>
+                <h2>FV Simpler SEO存储型XSS</h2>
+                <p><strong>编号：</strong>CVE-2026-54868</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-x4ym-zive" target="_blank">https://www.oscs1024.com/hd/MPS-x4ym-zive</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-ouzt-cy51" target="_blank">https://www.oscs1024.com/hd/MPS-ouzt-cy51</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Microsoft Partner Center证书校验提权漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-d3y2-mb8p</link>
-            <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-96207</guid>
+            <title>Responsive Slider存储型XSS</title>
+            <link>https://www.oscs1024.com/hd/MPS-rcx0-vhtm</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-54867</guid>
             <description><![CDATA[
-                <h2>Microsoft Partner Center证书校验提权漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-96207</p>
+                <h2>Responsive Slider存储型XSS</h2>
+                <p><strong>编号：</strong>CVE-2026-54867</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-d3y2-mb8p" target="_blank">https://www.oscs1024.com/hd/MPS-d3y2-mb8p</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-rcx0-vhtm" target="_blank">https://www.oscs1024.com/hd/MPS-rcx0-vhtm</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Microsoft Partner Center证书校验提权漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-96207</p>
+                <h2>Responsive Slider存储型XSS</h2>
+                <p><strong>编号：</strong>CVE-2026-54867</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-d3y2-mb8p" target="_blank">https://www.oscs1024.com/hd/MPS-d3y2-mb8p</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-rcx0-vhtm" target="_blank">https://www.oscs1024.com/hd/MPS-rcx0-vhtm</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Dataverse 反序列化远程代码执行漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-uh52-ltxn</link>
-            <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-88131</guid>
+            <title>HRM员工接口认证绕过</title>
+            <link>https://www.oscs1024.com/hd/MPS-zrl3-awkt</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-108972</guid>
             <description><![CDATA[
-                <h2>Dataverse 反序列化远程代码执行漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-88131</p>
+                <h2>HRM员工接口认证绕过</h2>
+                <p><strong>编号：</strong>CVE-2026-108972</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-uh52-ltxn" target="_blank">https://www.oscs1024.com/hd/MPS-uh52-ltxn</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-zrl3-awkt" target="_blank">https://www.oscs1024.com/hd/MPS-zrl3-awkt</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Dataverse 反序列化远程代码执行漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-88131</p>
+                <h2>HRM员工接口认证绕过</h2>
+                <p><strong>编号：</strong>CVE-2026-108972</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-uh52-ltxn" target="_blank">https://www.oscs1024.com/hd/MPS-uh52-ltxn</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-zrl3-awkt" target="_blank">https://www.oscs1024.com/hd/MPS-zrl3-awkt</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Azure API Center 信息泄露漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-jt7e-g4or</link>
-            <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-83943</guid>
+            <title>DCS-930L签名校验缺失</title>
+            <link>https://www.oscs1024.com/hd/MPS-jnsc-arx0</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-108971</guid>
             <description><![CDATA[
-                <h2>Azure API Center 信息泄露漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-83943</p>
+                <h2>DCS-930L签名校验缺失</h2>
+                <p><strong>编号：</strong>CVE-2026-108971</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-jt7e-g4or" target="_blank">https://www.oscs1024.com/hd/MPS-jt7e-g4or</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-jnsc-arx0" target="_blank">https://www.oscs1024.com/hd/MPS-jnsc-arx0</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Azure API Center 信息泄露漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-83943</p>
+                <h2>DCS-930L签名校验缺失</h2>
+                <p><strong>编号：</strong>CVE-2026-108971</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-jt7e-g4or" target="_blank">https://www.oscs1024.com/hd/MPS-jt7e-g4or</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-jnsc-arx0" target="_blank">https://www.oscs1024.com/hd/MPS-jnsc-arx0</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Azure Event Grid 欺骗漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-x4z1-ourj</link>
-            <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-83947</guid>
+            <title>考试系统注册SQL注入</title>
+            <link>https://www.oscs1024.com/hd/MPS-g8om-tyw2</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-108970</guid>
             <description><![CDATA[
-                <h2>Azure Event Grid 欺骗漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-83947</p>
+                <h2>考试系统注册SQL注入</h2>
+                <p><strong>编号：</strong>CVE-2026-108970</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-x4z1-ourj" target="_blank">https://www.oscs1024.com/hd/MPS-x4z1-ourj</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-g8om-tyw2" target="_blank">https://www.oscs1024.com/hd/MPS-g8om-tyw2</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Azure Event Grid 欺骗漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-83947</p>
+                <h2>考试系统注册SQL注入</h2>
+                <p><strong>编号：</strong>CVE-2026-108970</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-x4z1-ourj" target="_blank">https://www.oscs1024.com/hd/MPS-x4z1-ourj</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-g8om-tyw2" target="_blank">https://www.oscs1024.com/hd/MPS-g8om-tyw2</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Azure App Service身份认证缺失漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-pf4k-6g9t</link>
-            <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-77900</guid>
+            <title>考试系统会话比较漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-0hej-g16l</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-108969</guid>
             <description><![CDATA[
-                <h2>Azure App Service身份认证缺失漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-77900</p>
+                <h2>考试系统会话比较漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-108969</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-pf4k-6g9t" target="_blank">https://www.oscs1024.com/hd/MPS-pf4k-6g9t</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-0hej-g16l" target="_blank">https://www.oscs1024.com/hd/MPS-0hej-g16l</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Azure App Service身份认证缺失漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-77900</p>
+                <h2>考试系统会话比较漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-108969</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-pf4k-6g9t" target="_blank">https://www.oscs1024.com/hd/MPS-pf4k-6g9t</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-0hej-g16l" target="_blank">https://www.oscs1024.com/hd/MPS-0hej-g16l</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Azure SRE Agent 特权提升漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-7df2-bvh5</link>
-            <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-69435</guid>
+            <title>绩效指标系统SQL注入</title>
+            <link>https://www.oscs1024.com/hd/MPS-j3ym-x1u9</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-108968</guid>
             <description><![CDATA[
-                <h2>Azure SRE Agent 特权提升漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-69435</p>
+                <h2>绩效指标系统SQL注入</h2>
+                <p><strong>编号：</strong>CVE-2026-108968</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-7df2-bvh5" target="_blank">https://www.oscs1024.com/hd/MPS-7df2-bvh5</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-j3ym-x1u9" target="_blank">https://www.oscs1024.com/hd/MPS-j3ym-x1u9</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Azure SRE Agent 特权提升漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-69435</p>
+                <h2>绩效指标系统SQL注入</h2>
+                <p><strong>编号：</strong>CVE-2026-108968</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-7df2-bvh5" target="_blank">https://www.oscs1024.com/hd/MPS-7df2-bvh5</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-j3ym-x1u9" target="_blank">https://www.oscs1024.com/hd/MPS-j3ym-x1u9</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>SumatraPDF 参数注入漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-1fqh-v76x</link>
-            <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-107802</guid>
+            <title>绩效指标系统SQL注入</title>
+            <link>https://www.oscs1024.com/hd/MPS-q0r3-fgal</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-108967</guid>
             <description><![CDATA[
-                <h2>SumatraPDF 参数注入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-107802</p>
+                <h2>绩效指标系统SQL注入</h2>
+                <p><strong>编号：</strong>CVE-2026-108967</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-1fqh-v76x" target="_blank">https://www.oscs1024.com/hd/MPS-1fqh-v76x</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-q0r3-fgal" target="_blank">https://www.oscs1024.com/hd/MPS-q0r3-fgal</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>SumatraPDF 参数注入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-107802</p>
+                <h2>绩效指标系统SQL注入</h2>
+                <p><strong>编号：</strong>CVE-2026-108967</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-09</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-1fqh-v76x" target="_blank">https://www.oscs1024.com/hd/MPS-1fqh-v76x</a></p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-q0r3-fgal" target="_blank">https://www.oscs1024.com/hd/MPS-q0r3-fgal</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>Libstoragemgmt: libstoragemgmt: denial of service via stack buffer overflow in scsi vpd page parsing</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-93433</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-93433</guid>
+            <description><![CDATA[
+                <h2>Libstoragemgmt: libstoragemgmt: denial of service via stack buffer overflow in scsi vpd page parsing</h2>
+                <p><strong>编号：</strong>CVE-2026-93433</p>
+                <p><strong>来源：</strong>微软安全响应中心</p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-93433" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-93433</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>Libstoragemgmt: libstoragemgmt: denial of service via stack buffer overflow in scsi vpd page parsing</h2>
+                <p><strong>编号：</strong>CVE-2026-93433</p>
+                <p><strong>来源：</strong>微软安全响应中心</p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-93433" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-93433</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>Privasys rustls fork: RA-TLS challenge mode did not bind attestation evidence to the TLS session</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-108266</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-108266</guid>
+            <description><![CDATA[
+                <h2>Privasys rustls fork: RA-TLS challenge mode did not bind attestation evidence to the TLS session</h2>
+                <p><strong>编号：</strong>CVE-2026-108266</p>
+                <p><strong>来源：</strong>微软安全响应中心</p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-108266" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-108266</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>Privasys rustls fork: RA-TLS challenge mode did not bind attestation evidence to the TLS session</h2>
+                <p><strong>编号：</strong>CVE-2026-108266</p>
+                <p><strong>来源：</strong>微软安全响应中心</p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-108266" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-108266</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>Gcc-toolset-15-gcc: gcc: gcc-toolset-16: gcc: denial of service via use-after-free in binary heap erase_if</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-102010</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-102010</guid>
+            <description><![CDATA[
+                <h2>Gcc-toolset-15-gcc: gcc: gcc-toolset-16: gcc: denial of service via use-after-free in binary heap erase_if</h2>
+                <p><strong>编号：</strong>CVE-2026-102010</p>
+                <p><strong>来源：</strong>微软安全响应中心</p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-102010" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-102010</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>Gcc-toolset-15-gcc: gcc: gcc-toolset-16: gcc: denial of service via use-after-free in binary heap erase_if</h2>
+                <p><strong>编号：</strong>CVE-2026-102010</p>
+                <p><strong>来源：</strong>微软安全响应中心</p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-102010" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-102010</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>Gcc: libstdc++ integer overflow in `new` operator</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-95619</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-95619</guid>
+            <description><![CDATA[
+                <h2>Gcc: libstdc++ integer overflow in `new` operator</h2>
+                <p><strong>编号：</strong>CVE-2026-95619</p>
+                <p><strong>来源：</strong>微软安全响应中心</p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-95619" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-95619</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>Gcc: libstdc++ integer overflow in `new` operator</h2>
+                <p><strong>编号：</strong>CVE-2026-95619</p>
+                <p><strong>来源：</strong>微软安全响应中心</p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-95619" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-95619</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>Environment-modules: command injection in environment-modules bash completion via malicious module names containing shell metacharacters</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-85013</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-85013</guid>
+            <description><![CDATA[
+                <h2>Environment-modules: command injection in environment-modules bash completion via malicious module names containing shell metacharacters</h2>
+                <p><strong>编号：</strong>CVE-2026-85013</p>
+                <p><strong>来源：</strong>微软安全响应中心</p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-85013" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-85013</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>Environment-modules: command injection in environment-modules bash completion via malicious module names containing shell metacharacters</h2>
+                <p><strong>编号：</strong>CVE-2026-85013</p>
+                <p><strong>来源：</strong>微软安全响应中心</p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-85013" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-85013</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>Busybox: busybox: tar extraction-root escape via deferred symlink/hardlink creation bypasses cve-2026-26158 fix</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-108119</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-108119</guid>
+            <description><![CDATA[
+                <h2>Busybox: busybox: tar extraction-root escape via deferred symlink/hardlink creation bypasses cve-2026-26158 fix</h2>
+                <p><strong>编号：</strong>CVE-2026-108119</p>
+                <p><strong>来源：</strong>微软安全响应中心</p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-108119" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-108119</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>Busybox: busybox: tar extraction-root escape via deferred symlink/hardlink creation bypasses cve-2026-26158 fix</h2>
+                <p><strong>编号：</strong>CVE-2026-108119</p>
+                <p><strong>来源：</strong>微软安全响应中心</p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-108119" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-108119</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>GNU Emacs before 31.2 (and TRAMP through 2.8.2) allows OS command injection via a filename because tramp-user-regexp has an incomplete list of disallowed inputs. NOTE: this issue exists because of an incomplete fix for CVE-2026-79992.</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-108976</link>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-108976</guid>
+            <description><![CDATA[
+                <h2>GNU Emacs before 31.2 (and TRAMP through 2.8.2) allows OS command injection via a filename because tramp-user-regexp has an incomplete list of disallowed inputs. NOTE: this issue exists because of an incomplete fix for CVE-2026-79992.</h2>
+                <p><strong>编号：</strong>CVE-2026-108976</p>
+                <p><strong>来源：</strong>微软安全响应中心</p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-108976" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-108976</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>GNU Emacs before 31.2 (and TRAMP through 2.8.2) allows OS command injection via a filename because tramp-user-regexp has an incomplete list of disallowed inputs. NOTE: this issue exists because of an incomplete fix for CVE-2026-79992.</h2>
+                <p><strong>编号：</strong>CVE-2026-108976</p>
+                <p><strong>来源：</strong>微软安全响应中心</p>
+                <p><strong>时间：</strong>2026-10-13</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-108976" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-108976</a></p>
             ]]></content:encoded>
         </item>
 
