@@ -5,887 +5,614 @@
         <link>https://github.com/anonymous99-Rise/cve_monitor</link>
         <description>威胁情报汇总 - 包含每日和每周威胁情报</description>
         <language>zh-CN</language>
-        <lastBuildDate>Fri, 16 Oct 2026 12:58:05 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Oct 2026 13:13:51 GMT</lastBuildDate>
 
         <item>
-            <title>CVE-2026-96768漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-8ul3-ygej</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-96768</guid>
+            <title>Camel AWS2-S3 表达式注入漏洞</title>
+            <link>http://www.mail-archive.com/announce@apache.org/msg12423.html</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-95664</guid>
             <description><![CDATA[
-                <h2>CVE-2026-96768漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-96768</p>
+                <h2>Camel AWS2-S3 表达式注入漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-95664</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-8ul3-ygej" target="_blank">https://www.oscs1024.com/hd/MPS-8ul3-ygej</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12423.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12423.html</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>CVE-2026-96768漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-96768</p>
+                <h2>Camel AWS2-S3 表达式注入漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-95664</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-8ul3-ygej" target="_blank">https://www.oscs1024.com/hd/MPS-8ul3-ygej</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12423.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12423.html</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Open redirect and XSS via reset_url parameter</title>
-            <link>https://www.oscs1024.com/hd/MPS-1vf0-64qs</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-14452</guid>
+            <title>camel-keycloak 过期令牌缓存绕过漏洞</title>
+            <link>http://www.mail-archive.com/announce@apache.org/msg12422.html</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-95663</guid>
             <description><![CDATA[
-                <h2>Open redirect and XSS via reset_url parameter</h2>
-                <p><strong>编号：</strong>CVE-2026-14452</p>
+                <h2>camel-keycloak 过期令牌缓存绕过漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-95663</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-1vf0-64qs" target="_blank">https://www.oscs1024.com/hd/MPS-1vf0-64qs</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12422.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12422.html</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Open redirect and XSS via reset_url parameter</h2>
-                <p><strong>编号：</strong>CVE-2026-14452</p>
+                <h2>camel-keycloak 过期令牌缓存绕过漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-95663</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-1vf0-64qs" target="_blank">https://www.oscs1024.com/hd/MPS-1vf0-64qs</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12422.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12422.html</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>CVE-2026-110703漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-4tj3-2d5i</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-110703</guid>
+            <title>Apache Camel OAuth 跨作用域令牌复用漏洞</title>
+            <link>http://www.mail-archive.com/announce@apache.org/msg12419.html</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-94386</guid>
             <description><![CDATA[
-                <h2>CVE-2026-110703漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-110703</p>
+                <h2>Apache Camel OAuth 跨作用域令牌复用漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-94386</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-4tj3-2d5i" target="_blank">https://www.oscs1024.com/hd/MPS-4tj3-2d5i</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12419.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12419.html</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>CVE-2026-110703漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-110703</p>
+                <h2>Apache Camel OAuth 跨作用域令牌复用漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-94386</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-4tj3-2d5i" target="_blank">https://www.oscs1024.com/hd/MPS-4tj3-2d5i</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12419.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12419.html</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>CVE-2026-107649漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-nu65-j2hc</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-107649</guid>
+            <title>Apache Camel Docling路径校验绕过漏洞</title>
+            <link>http://www.mail-archive.com/announce@apache.org/msg12420.html</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-95628</guid>
             <description><![CDATA[
-                <h2>CVE-2026-107649漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-107649</p>
+                <h2>Apache Camel Docling路径校验绕过漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-95628</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-nu65-j2hc" target="_blank">https://www.oscs1024.com/hd/MPS-nu65-j2hc</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12420.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12420.html</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>CVE-2026-107649漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-107649</p>
+                <h2>Apache Camel Docling路径校验绕过漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-95628</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-nu65-j2hc" target="_blank">https://www.oscs1024.com/hd/MPS-nu65-j2hc</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12420.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12420.html</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Missing Authorization in NordVPN for Windows</title>
-            <link>https://www.oscs1024.com/hd/MPS-ryao-2tqv</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-106030</guid>
+            <title>Apache Camel XXE漏洞</title>
+            <link>http://www.mail-archive.com/announce@apache.org/msg12418.html</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-90885</guid>
             <description><![CDATA[
-                <h2>Missing Authorization in NordVPN for Windows</h2>
-                <p><strong>编号：</strong>CVE-2026-106030</p>
+                <h2>Apache Camel XXE漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-90885</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-ryao-2tqv" target="_blank">https://www.oscs1024.com/hd/MPS-ryao-2tqv</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12418.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12418.html</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Missing Authorization in NordVPN for Windows</h2>
-                <p><strong>编号：</strong>CVE-2026-106030</p>
+                <h2>Apache Camel XXE漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-90885</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-ryao-2tqv" target="_blank">https://www.oscs1024.com/hd/MPS-ryao-2tqv</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12418.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12418.html</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>CVE-2026-93681漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-ykfo-xusj</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-93681</guid>
+            <title>Camel-Docling 输出路径穿越漏洞</title>
+            <link>http://www.mail-archive.com/announce@apache.org/msg12421.html</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-95629</guid>
             <description><![CDATA[
-                <h2>CVE-2026-93681漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-93681</p>
+                <h2>Camel-Docling 输出路径穿越漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-95629</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-ykfo-xusj" target="_blank">https://www.oscs1024.com/hd/MPS-ykfo-xusj</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12421.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12421.html</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>CVE-2026-93681漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-93681</p>
+                <h2>Camel-Docling 输出路径穿越漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-95629</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-ykfo-xusj" target="_blank">https://www.oscs1024.com/hd/MPS-ykfo-xusj</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12421.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12421.html</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>CVE-2026-15575漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-67n2-u1fa</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-15575</guid>
+            <title>Apache Camel CoAP 信息泄露漏洞</title>
+            <link>http://www.mail-archive.com/announce@apache.org/msg12417.html</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-101259</guid>
             <description><![CDATA[
-                <h2>CVE-2026-15575漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-15575</p>
+                <h2>Apache Camel CoAP 信息泄露漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-101259</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-67n2-u1fa" target="_blank">https://www.oscs1024.com/hd/MPS-67n2-u1fa</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12417.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12417.html</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>CVE-2026-15575漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-15575</p>
+                <h2>Apache Camel CoAP 信息泄露漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-101259</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-67n2-u1fa" target="_blank">https://www.oscs1024.com/hd/MPS-67n2-u1fa</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12417.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12417.html</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>SQL injection in TSG Profleet</title>
-            <link>https://www.oscs1024.com/hd/MPS-dang-l5f0</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-111472</guid>
+            <title>plug_crypto 密钥日志泄漏漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-uylg-7x0i</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-105963</guid>
             <description><![CDATA[
-                <h2>SQL injection in TSG Profleet</h2>
-                <p><strong>编号：</strong>CVE-2026-111472</p>
+                <h2>plug_crypto 密钥日志泄漏漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-105963</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-dang-l5f0" target="_blank">https://www.oscs1024.com/hd/MPS-dang-l5f0</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-uylg-7x0i" target="_blank">https://www.oscs1024.com/hd/MPS-uylg-7x0i</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>SQL injection in TSG Profleet</h2>
-                <p><strong>编号：</strong>CVE-2026-111472</p>
+                <h2>plug_crypto 密钥日志泄漏漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-105963</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-dang-l5f0" target="_blank">https://www.oscs1024.com/hd/MPS-dang-l5f0</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-uylg-7x0i" target="_blank">https://www.oscs1024.com/hd/MPS-uylg-7x0i</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>CVE-2026-109224漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-3lvy-hp8b</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-109224</guid>
+            <title>gose JWE 解密拒绝服务漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-wpm4-bhkz</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-89318</guid>
             <description><![CDATA[
-                <h2>CVE-2026-109224漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-109224</p>
+                <h2>gose JWE 解密拒绝服务漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-89318</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-3lvy-hp8b" target="_blank">https://www.oscs1024.com/hd/MPS-3lvy-hp8b</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-wpm4-bhkz" target="_blank">https://www.oscs1024.com/hd/MPS-wpm4-bhkz</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>CVE-2026-109224漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-109224</p>
+                <h2>gose JWE 解密拒绝服务漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-89318</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-3lvy-hp8b" target="_blank">https://www.oscs1024.com/hd/MPS-3lvy-hp8b</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-wpm4-bhkz" target="_blank">https://www.oscs1024.com/hd/MPS-wpm4-bhkz</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>CVE-2026-111311漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-tq1z-2bj4</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-111311</guid>
+            <title>gose 拒绝服务漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-rx3y-g4jp</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-89315</guid>
             <description><![CDATA[
-                <h2>CVE-2026-111311漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-111311</p>
+                <h2>gose 拒绝服务漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-89315</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-tq1z-2bj4" target="_blank">https://www.oscs1024.com/hd/MPS-tq1z-2bj4</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-rx3y-g4jp" target="_blank">https://www.oscs1024.com/hd/MPS-rx3y-g4jp</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>CVE-2026-111311漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-111311</p>
+                <h2>gose 拒绝服务漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-89315</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-tq1z-2bj4" target="_blank">https://www.oscs1024.com/hd/MPS-tq1z-2bj4</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-rx3y-g4jp" target="_blank">https://www.oscs1024.com/hd/MPS-rx3y-g4jp</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>HTTP/1 server connection desynchronization after 2xx CONNECT response in net/http</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-94439</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-94439</guid>
+            <title>PCI: mediatek: Protect root bus removal with rescan lock</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-93819</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-93819</guid>
             <description><![CDATA[
-                <h2>HTTP/1 server connection desynchronization after 2xx CONNECT response in net/http</h2>
-                <p><strong>编号：</strong>CVE-2026-94439</p>
+                <h2>PCI: mediatek: Protect root bus removal with rescan lock</h2>
+                <p><strong>编号：</strong>CVE-2026-93819</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-94439" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-94439</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-93819" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-93819</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>HTTP/1 server connection desynchronization after 2xx CONNECT response in net/http</h2>
-                <p><strong>编号：</strong>CVE-2026-94439</p>
+                <h2>PCI: mediatek: Protect root bus removal with rescan lock</h2>
+                <p><strong>编号：</strong>CVE-2026-93819</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-94439" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-94439</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-93819" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-93819</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Lack of limit on size of parsed Range headers in net/http</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-78667</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-78667</guid>
+            <title>pinctrl: mediatek: use devm_gpiochip_add_data() for GPIO chip</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-92482</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-92482</guid>
             <description><![CDATA[
-                <h2>Lack of limit on size of parsed Range headers in net/http</h2>
-                <p><strong>编号：</strong>CVE-2026-78667</p>
+                <h2>pinctrl: mediatek: use devm_gpiochip_add_data() for GPIO chip</h2>
+                <p><strong>编号：</strong>CVE-2026-92482</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-78667" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-78667</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-92482" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-92482</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Lack of limit on size of parsed Range headers in net/http</h2>
-                <p><strong>编号：</strong>CVE-2026-78667</p>
+                <h2>pinctrl: mediatek: use devm_gpiochip_add_data() for GPIO chip</h2>
+                <p><strong>编号：</strong>CVE-2026-92482</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-78667" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-78667</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-92482" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-92482</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>TLS 1.2 session resumption in ssl crosses SNI virtual-host client-certificate trust boundaries</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-105236</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-105236</guid>
+            <title>clk: mediatek: pllfh: Fix IO remapping leak in register_pllfhs error path</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-90422</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-90422</guid>
             <description><![CDATA[
-                <h2>TLS 1.2 session resumption in ssl crosses SNI virtual-host client-certificate trust boundaries</h2>
-                <p><strong>编号：</strong>CVE-2026-105236</p>
+                <h2>clk: mediatek: pllfh: Fix IO remapping leak in register_pllfhs error path</h2>
+                <p><strong>编号：</strong>CVE-2026-90422</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-105236" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-105236</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-90422" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-90422</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>TLS 1.2 session resumption in ssl crosses SNI virtual-host client-certificate trust boundaries</h2>
-                <p><strong>编号：</strong>CVE-2026-105236</p>
+                <h2>clk: mediatek: pllfh: Fix IO remapping leak in register_pllfhs error path</h2>
+                <p><strong>编号：</strong>CVE-2026-90422</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-105236" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-105236</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-90422" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-90422</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>util-linux libblkid DOS extended-partition overflow produces invalid partition metadata</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-53615</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-53615</guid>
+            <title>power: supply: charger-manager: register regulators before exposing sysfs</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-89472</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-89472</guid>
             <description><![CDATA[
-                <h2>util-linux libblkid DOS extended-partition overflow produces invalid partition metadata</h2>
-                <p><strong>编号：</strong>CVE-2026-53615</p>
+                <h2>power: supply: charger-manager: register regulators before exposing sysfs</h2>
+                <p><strong>编号：</strong>CVE-2026-89472</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-53615" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-53615</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-89472" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-89472</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>util-linux libblkid DOS extended-partition overflow produces invalid partition metadata</h2>
-                <p><strong>编号：</strong>CVE-2026-53615</p>
+                <h2>power: supply: charger-manager: register regulators before exposing sysfs</h2>
+                <p><strong>编号：</strong>CVE-2026-89472</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-53615" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-53615</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-89472" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-89472</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Integer overflow causes an infinite loop in message buffer growth in PgBouncer</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-107348</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-107348</guid>
+            <title>bpf: Fix NMI/tracepoint re-entry deadlock on lru locks</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-74337</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-74337</guid>
             <description><![CDATA[
-                <h2>Integer overflow causes an infinite loop in message buffer growth in PgBouncer</h2>
-                <p><strong>编号：</strong>CVE-2026-107348</p>
+                <h2>bpf: Fix NMI/tracepoint re-entry deadlock on lru locks</h2>
+                <p><strong>编号：</strong>CVE-2026-74337</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-107348" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-107348</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-74337" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-74337</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Integer overflow causes an infinite loop in message buffer growth in PgBouncer</h2>
-                <p><strong>编号：</strong>CVE-2026-107348</p>
+                <h2>bpf: Fix NMI/tracepoint re-entry deadlock on lru locks</h2>
+                <p><strong>编号：</strong>CVE-2026-74337</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-107348" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-107348</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-74337" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-74337</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Infinite loop on empty option name in startup options parameter in PgBouncer</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-107349</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-107349</guid>
+            <title>cxl/region: Block region delete during region creation</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-74273</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-74273</guid>
             <description><![CDATA[
-                <h2>Infinite loop on empty option name in startup options parameter in PgBouncer</h2>
-                <p><strong>编号：</strong>CVE-2026-107349</p>
+                <h2>cxl/region: Block region delete during region creation</h2>
+                <p><strong>编号：</strong>CVE-2026-74273</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-107349" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-107349</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-74273" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-74273</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Infinite loop on empty option name in startup options parameter in PgBouncer</h2>
-                <p><strong>编号：</strong>CVE-2026-107349</p>
+                <h2>cxl/region: Block region delete during region creation</h2>
+                <p><strong>编号：</strong>CVE-2026-74273</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-107349" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-107349</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-74273" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-74273</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Authentication bypass via second StartupMessage during SCRAM authentication in PgBouncer</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-107350</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-107350</guid>
+            <title>xen/pvcalls: bound backend response req_id before indexing rsp[]</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-72380</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-72380</guid>
             <description><![CDATA[
-                <h2>Authentication bypass via second StartupMessage during SCRAM authentication in PgBouncer</h2>
-                <p><strong>编号：</strong>CVE-2026-107350</p>
+                <h2>xen/pvcalls: bound backend response req_id before indexing rsp[]</h2>
+                <p><strong>编号：</strong>CVE-2026-72380</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-107350" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-107350</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-72380" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-72380</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Authentication bypass via second StartupMessage during SCRAM authentication in PgBouncer</h2>
-                <p><strong>编号：</strong>CVE-2026-107350</p>
+                <h2>xen/pvcalls: bound backend response req_id before indexing rsp[]</h2>
+                <p><strong>编号：</strong>CVE-2026-72380</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-107350" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-107350</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-72380" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-72380</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>selinux: always fill AVC decision in avc_has_perm_noaudit()</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98413</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98413</guid>
+            <title>Negotiate credentials sent to redirected origin</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-86413</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-86413</guid>
             <description><![CDATA[
-                <h2>selinux: always fill AVC decision in avc_has_perm_noaudit()</h2>
-                <p><strong>编号：</strong>CVE-2026-98413</p>
+                <h2>Negotiate credentials sent to redirected origin</h2>
+                <p><strong>编号：</strong>CVE-2026-86413</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98413" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98413</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-86413" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-86413</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>selinux: always fill AVC decision in avc_has_perm_noaudit()</h2>
-                <p><strong>编号：</strong>CVE-2026-98413</p>
+                <h2>Negotiate credentials sent to redirected origin</h2>
+                <p><strong>编号：</strong>CVE-2026-86413</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98413" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98413</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-86413" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-86413</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>exec: do_close_on_exec() before taking exec_update_lock</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98388</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98388</guid>
+            <title>cross-origin reuse of a Negotiate connection</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-87861</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-87861</guid>
             <description><![CDATA[
-                <h2>exec: do_close_on_exec() before taking exec_update_lock</h2>
-                <p><strong>编号：</strong>CVE-2026-98388</p>
+                <h2>cross-origin reuse of a Negotiate connection</h2>
+                <p><strong>编号：</strong>CVE-2026-87861</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98388" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98388</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-87861" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-87861</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>exec: do_close_on_exec() before taking exec_update_lock</h2>
-                <p><strong>编号：</strong>CVE-2026-98388</p>
+                <h2>cross-origin reuse of a Negotiate connection</h2>
+                <p><strong>编号：</strong>CVE-2026-87861</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98388" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98388</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-87861" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-87861</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>wifi: mac80211: require a peer station for TDLS setup confirm</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98421</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98421</guid>
+            <title>auto client cert connection reuse mixup</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-86415</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-86415</guid>
             <description><![CDATA[
-                <h2>wifi: mac80211: require a peer station for TDLS setup confirm</h2>
-                <p><strong>编号：</strong>CVE-2026-98421</p>
+                <h2>auto client cert connection reuse mixup</h2>
+                <p><strong>编号：</strong>CVE-2026-86415</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98421" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98421</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-86415" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-86415</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>wifi: mac80211: require a peer station for TDLS setup confirm</h2>
-                <p><strong>编号：</strong>CVE-2026-98421</p>
+                <h2>auto client cert connection reuse mixup</h2>
+                <p><strong>编号：</strong>CVE-2026-86415</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98421" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98421</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-86415" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-86415</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>RDMA/efa: Keep admin queues alive while IRQ is registered</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98430</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98430</guid>
+            <title>server-set cookie erases cookie jar</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-86412</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-86412</guid>
             <description><![CDATA[
-                <h2>RDMA/efa: Keep admin queues alive while IRQ is registered</h2>
-                <p><strong>编号：</strong>CVE-2026-98430</p>
+                <h2>server-set cookie erases cookie jar</h2>
+                <p><strong>编号：</strong>CVE-2026-86412</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98430" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98430</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-86412" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-86412</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>RDMA/efa: Keep admin queues alive while IRQ is registered</h2>
-                <p><strong>编号：</strong>CVE-2026-98430</p>
+                <h2>server-set cookie erases cookie jar</h2>
+                <p><strong>编号：</strong>CVE-2026-86412</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98430" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98430</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-86412" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-86412</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>drop_monitor: fix out-of-bounds write in reset_per_cpu_data()</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98419</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98419</guid>
+            <title>FTP connection reuse inherits client-certificate</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-86411</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-86411</guid>
             <description><![CDATA[
-                <h2>drop_monitor: fix out-of-bounds write in reset_per_cpu_data()</h2>
-                <p><strong>编号：</strong>CVE-2026-98419</p>
+                <h2>FTP connection reuse inherits client-certificate</h2>
+                <p><strong>编号：</strong>CVE-2026-86411</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98419" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98419</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-86411" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-86411</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>drop_monitor: fix out-of-bounds write in reset_per_cpu_data()</h2>
-                <p><strong>编号：</strong>CVE-2026-98419</p>
+                <h2>FTP connection reuse inherits client-certificate</h2>
+                <p><strong>编号：</strong>CVE-2026-86411</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98419" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98419</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-86411" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-86411</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>drm/virtio: Fix a NULL vs ERR_PTR() bug in virtio_gpu_user_framebuffer_create()</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98404</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98404</guid>
+            <title>redirect to SFTP or SCP bypasses host verification</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-86410</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-86410</guid>
             <description><![CDATA[
-                <h2>drm/virtio: Fix a NULL vs ERR_PTR() bug in virtio_gpu_user_framebuffer_create()</h2>
-                <p><strong>编号：</strong>CVE-2026-98404</p>
+                <h2>redirect to SFTP or SCP bypasses host verification</h2>
+                <p><strong>编号：</strong>CVE-2026-86410</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98404" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98404</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-86410" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-86410</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>drm/virtio: Fix a NULL vs ERR_PTR() bug in virtio_gpu_user_framebuffer_create()</h2>
-                <p><strong>编号：</strong>CVE-2026-98404</p>
+                <h2>redirect to SFTP or SCP bypasses host verification</h2>
+                <p><strong>编号：</strong>CVE-2026-86410</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98404" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98404</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-86410" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-86410</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>watchdog: rtd119x: Avoid division by zero</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98409</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98409</guid>
+            <title>leaking host credentials to HTTP proxy</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-86414</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-86414</guid>
             <description><![CDATA[
-                <h2>watchdog: rtd119x: Avoid division by zero</h2>
-                <p><strong>编号：</strong>CVE-2026-98409</p>
+                <h2>leaking host credentials to HTTP proxy</h2>
+                <p><strong>编号：</strong>CVE-2026-86414</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98409" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98409</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-86414" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-86414</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>watchdog: rtd119x: Avoid division by zero</h2>
-                <p><strong>编号：</strong>CVE-2026-98409</p>
+                <h2>leaking host credentials to HTTP proxy</h2>
+                <p><strong>编号：</strong>CVE-2026-86414</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98409" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98409</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-86414" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-86414</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>wifi: mac80211_hwsim: don't hand frames to mac80211 while stopping</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98423</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98423</guid>
+            <title>wolfSSL public-key pinning bypass</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-87866</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-87866</guid>
             <description><![CDATA[
-                <h2>wifi: mac80211_hwsim: don't hand frames to mac80211 while stopping</h2>
-                <p><strong>编号：</strong>CVE-2026-98423</p>
+                <h2>wolfSSL public-key pinning bypass</h2>
+                <p><strong>编号：</strong>CVE-2026-87866</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98423" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98423</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-87866" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-87866</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>wifi: mac80211_hwsim: don't hand frames to mac80211 while stopping</h2>
-                <p><strong>编号：</strong>CVE-2026-98423</p>
+                <h2>wolfSSL public-key pinning bypass</h2>
+                <p><strong>编号：</strong>CVE-2026-87866</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98423" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98423</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-87866" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-87866</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>RDMA/efa: Keep EQ resources alive while IRQ is registered</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98429</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98429</guid>
+            <title>HSTS response erases persisted entries</title>
+            <link>https://www.cve.org/CVERecord?id=CVE-2026-87863</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-87863</guid>
             <description><![CDATA[
-                <h2>RDMA/efa: Keep EQ resources alive while IRQ is registered</h2>
-                <p><strong>编号：</strong>CVE-2026-98429</p>
+                <h2>HSTS response erases persisted entries</h2>
+                <p><strong>编号：</strong>CVE-2026-87863</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98429" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98429</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-87863" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-87863</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>RDMA/efa: Keep EQ resources alive while IRQ is registered</h2>
-                <p><strong>编号：</strong>CVE-2026-98429</p>
+                <h2>HSTS response erases persisted entries</h2>
+                <p><strong>编号：</strong>CVE-2026-87863</p>
                 <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98429" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98429</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-87863" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-87863</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>smb: client: fix missing iov bounds check in parse_posix_sids()</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98405</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98405</guid>
+            <title>Go 标准库 crypto/x509 证书信任绕过漏洞</title>
+            <link>https://x.threatbook.com/v5/vul/XVE-2026-84057</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">XVE-2026-84057</guid>
             <description><![CDATA[
-                <h2>smb: client: fix missing iov bounds check in parse_posix_sids()</h2>
-                <p><strong>编号：</strong>CVE-2026-98405</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98405" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98405</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>smb: client: fix missing iov bounds check in parse_posix_sids()</h2>
-                <p><strong>编号：</strong>CVE-2026-98405</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98405" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98405</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>scsi: qla2xxx: Use memset_io() to clear QLAFX00 request ring slot</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98386</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98386</guid>
-            <description><![CDATA[
-                <h2>scsi: qla2xxx: Use memset_io() to clear QLAFX00 request ring slot</h2>
-                <p><strong>编号：</strong>CVE-2026-98386</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98386" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98386</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>scsi: qla2xxx: Use memset_io() to clear QLAFX00 request ring slot</h2>
-                <p><strong>编号：</strong>CVE-2026-98386</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98386" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98386</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>net: iptunnel: fix stale transport header during tunnel decapsulation</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98401</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98401</guid>
-            <description><![CDATA[
-                <h2>net: iptunnel: fix stale transport header during tunnel decapsulation</h2>
-                <p><strong>编号：</strong>CVE-2026-98401</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98401" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98401</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>net: iptunnel: fix stale transport header during tunnel decapsulation</h2>
-                <p><strong>编号：</strong>CVE-2026-98401</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98401" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98401</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>wifi: mac80211: avoid WARN in set_bitrate_mask when sdata not in driver</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98406</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98406</guid>
-            <description><![CDATA[
-                <h2>wifi: mac80211: avoid WARN in set_bitrate_mask when sdata not in driver</h2>
-                <p><strong>编号：</strong>CVE-2026-98406</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98406" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98406</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>wifi: mac80211: avoid WARN in set_bitrate_mask when sdata not in driver</h2>
-                <p><strong>编号：</strong>CVE-2026-98406</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98406" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98406</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>wifi: mwifiex: fix IRQ leak using wrong index in MSI-X error path</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98426</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98426</guid>
-            <description><![CDATA[
-                <h2>wifi: mwifiex: fix IRQ leak using wrong index in MSI-X error path</h2>
-                <p><strong>编号：</strong>CVE-2026-98426</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98426" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98426</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>wifi: mwifiex: fix IRQ leak using wrong index in MSI-X error path</h2>
-                <p><strong>编号：</strong>CVE-2026-98426</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98426" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98426</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>af_unix: Return immediately when manage_oob() returns NULL for 0-length buffer.</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98394</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98394</guid>
-            <description><![CDATA[
-                <h2>af_unix: Return immediately when manage_oob() returns NULL for 0-length buffer.</h2>
-                <p><strong>编号：</strong>CVE-2026-98394</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98394" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98394</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>af_unix: Return immediately when manage_oob() returns NULL for 0-length buffer.</h2>
-                <p><strong>编号：</strong>CVE-2026-98394</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98394" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98394</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>wifi: rsi: fix heap OOB write on key removal</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98407</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98407</guid>
-            <description><![CDATA[
-                <h2>wifi: rsi: fix heap OOB write on key removal</h2>
-                <p><strong>编号：</strong>CVE-2026-98407</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98407" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98407</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>wifi: rsi: fix heap OOB write on key removal</h2>
-                <p><strong>编号：</strong>CVE-2026-98407</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98407" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98407</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>net: icmp: avoid invalid transport header access in icmp_send tracepoint</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98402</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98402</guid>
-            <description><![CDATA[
-                <h2>net: icmp: avoid invalid transport header access in icmp_send tracepoint</h2>
-                <p><strong>编号：</strong>CVE-2026-98402</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98402" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98402</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>net: icmp: avoid invalid transport header access in icmp_send tracepoint</h2>
-                <p><strong>编号：</strong>CVE-2026-98402</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98402" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98402</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>wifi: mac80211: reset the AP_VLAN tailroom counter on ifdown</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98422</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98422</guid>
-            <description><![CDATA[
-                <h2>wifi: mac80211: reset the AP_VLAN tailroom counter on ifdown</h2>
-                <p><strong>编号：</strong>CVE-2026-98422</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98422" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98422</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>wifi: mac80211: reset the AP_VLAN tailroom counter on ifdown</h2>
-                <p><strong>编号：</strong>CVE-2026-98422</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98422" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98422</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>net/sched: codel: bound the dropping loop per dequeue call</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98427</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98427</guid>
-            <description><![CDATA[
-                <h2>net/sched: codel: bound the dropping loop per dequeue call</h2>
-                <p><strong>编号：</strong>CVE-2026-98427</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98427" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98427</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>net/sched: codel: bound the dropping loop per dequeue call</h2>
-                <p><strong>编号：</strong>CVE-2026-98427</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98427" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98427</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>net: ipv4: Fix UDP length overflow with PMTU discover and big MTU</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98393</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98393</guid>
-            <description><![CDATA[
-                <h2>net: ipv4: Fix UDP length overflow with PMTU discover and big MTU</h2>
-                <p><strong>编号：</strong>CVE-2026-98393</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98393" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98393</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>net: ipv4: Fix UDP length overflow with PMTU discover and big MTU</h2>
-                <p><strong>编号：</strong>CVE-2026-98393</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98393" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98393</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>wifi: cfg80211: undo netns switch if renaming the wiphy fails</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98424</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98424</guid>
-            <description><![CDATA[
-                <h2>wifi: cfg80211: undo netns switch if renaming the wiphy fails</h2>
-                <p><strong>编号：</strong>CVE-2026-98424</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98424" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98424</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>wifi: cfg80211: undo netns switch if renaming the wiphy fails</h2>
-                <p><strong>编号：</strong>CVE-2026-98424</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98424" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98424</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>wifi: mac80211: don't warn when an IBSS has no channel to scan</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98425</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98425</guid>
-            <description><![CDATA[
-                <h2>wifi: mac80211: don't warn when an IBSS has no channel to scan</h2>
-                <p><strong>编号：</strong>CVE-2026-98425</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98425" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98425</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>wifi: mac80211: don't warn when an IBSS has no channel to scan</h2>
-                <p><strong>编号：</strong>CVE-2026-98425</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98425" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98425</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>drm/amdgpu: skip gfx switch_power_profile during GPU reset</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-98389</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-98389</guid>
-            <description><![CDATA[
-                <h2>drm/amdgpu: skip gfx switch_power_profile during GPU reset</h2>
-                <p><strong>编号：</strong>CVE-2026-98389</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98389" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98389</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>drm/amdgpu: skip gfx switch_power_profile during GPU reset</h2>
-                <p><strong>编号：</strong>CVE-2026-98389</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-98389" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-98389</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>KEDA: Privilege escalation from namespace admin to cluster admin via KEDA TriggerAuthentication</title>
-            <link>https://www.cve.org/CVERecord?id=CVE-2026-77524</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-77524</guid>
-            <description><![CDATA[
-                <h2>KEDA: Privilege escalation from namespace admin to cluster admin via KEDA TriggerAuthentication</h2>
-                <p><strong>编号：</strong>CVE-2026-77524</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-77524" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-77524</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>KEDA: Privilege escalation from namespace admin to cluster admin via KEDA TriggerAuthentication</h2>
-                <p><strong>编号：</strong>CVE-2026-77524</p>
-                <p><strong>来源：</strong>微软安全响应中心</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://www.cve.org/CVERecord?id=CVE-2026-77524" target="_blank">https://www.cve.org/CVERecord?id=CVE-2026-77524</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Windows Shell 安全功能绕过漏洞</title>
-            <link>https://x.threatbook.com/v5/vul/XVE-2026-78023</link>
-            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">XVE-2026-78023</guid>
-            <description><![CDATA[
-                <h2>Windows Shell 安全功能绕过漏洞</h2>
-                <p><strong>编号：</strong>XVE-2026-78023</p>
+                <h2>Go 标准库 crypto/x509 证书信任绕过漏洞</h2>
+                <p><strong>编号：</strong>XVE-2026-84057</p>
                 <p><strong>来源：</strong>微步</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2026-78023" target="_blank">https://x.threatbook.com/v5/vul/XVE-2026-78023</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2026-84057" target="_blank">https://x.threatbook.com/v5/vul/XVE-2026-84057</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Windows Shell 安全功能绕过漏洞</h2>
-                <p><strong>编号：</strong>XVE-2026-78023</p>
+                <h2>Go 标准库 crypto/x509 证书信任绕过漏洞</h2>
+                <p><strong>编号：</strong>XVE-2026-84057</p>
                 <p><strong>来源：</strong>微步</p>
-                <p><strong>时间：</strong>2026-10-16</p>
-                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2026-78023" target="_blank">https://x.threatbook.com/v5/vul/XVE-2026-78023</a></p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2026-84057" target="_blank">https://x.threatbook.com/v5/vul/XVE-2026-84057</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>Oracle Java SE / OpenJDK JSSE 弱私钥中间 CA 证书信任绕过漏洞</title>
+            <link>https://x.threatbook.com/v5/vul/XVE-2026-84423</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">XVE-2026-84423</guid>
+            <description><![CDATA[
+                <h2>Oracle Java SE / OpenJDK JSSE 弱私钥中间 CA 证书信任绕过漏洞</h2>
+                <p><strong>编号：</strong>XVE-2026-84423</p>
+                <p><strong>来源：</strong>微步</p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2026-84423" target="_blank">https://x.threatbook.com/v5/vul/XVE-2026-84423</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>Oracle Java SE / OpenJDK JSSE 弱私钥中间 CA 证书信任绕过漏洞</h2>
+                <p><strong>编号：</strong>XVE-2026-84423</p>
+                <p><strong>来源：</strong>微步</p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2026-84423" target="_blank">https://x.threatbook.com/v5/vul/XVE-2026-84423</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>Google Guava反序列化资源分配未限制导致拒绝服务漏洞</title>
+            <link>https://x.threatbook.com/v5/vul/XVE-2026-75446</link>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">XVE-2026-75446</guid>
+            <description><![CDATA[
+                <h2>Google Guava反序列化资源分配未限制导致拒绝服务漏洞</h2>
+                <p><strong>编号：</strong>XVE-2026-75446</p>
+                <p><strong>来源：</strong>微步</p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2026-75446" target="_blank">https://x.threatbook.com/v5/vul/XVE-2026-75446</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>Google Guava反序列化资源分配未限制导致拒绝服务漏洞</h2>
+                <p><strong>编号：</strong>XVE-2026-75446</p>
+                <p><strong>来源：</strong>微步</p>
+                <p><strong>时间：</strong>2026-10-23</p>
+                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2026-75446" target="_blank">https://x.threatbook.com/v5/vul/XVE-2026-75446</a></p>
             ]]></content:encoded>
         </item>
 
