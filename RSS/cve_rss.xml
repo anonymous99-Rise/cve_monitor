@@ -5,215 +5,257 @@
         <link>https://github.com/anonymous99-Rise/cve_monitor</link>
         <description>威胁情报汇总 - 包含每日和每周威胁情报</description>
         <language>zh-CN</language>
-        <lastBuildDate>Mon, 02 Nov 2026 07:11:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2026 07:32:18 GMT</lastBuildDate>
 
         <item>
-            <title>迅睿CMS SQL注入漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-d7hp-agi1</link>
-            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-120347</guid>
+            <title>WP Fastest Cache信息泄露</title>
+            <link>https://www.oscs1024.com/hd/MPS-i7xq-4wam</link>
+            <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-111464</guid>
             <description><![CDATA[
-                <h2>迅睿CMS SQL注入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-120347</p>
+                <h2>WP Fastest Cache信息泄露</h2>
+                <p><strong>编号：</strong>CVE-2026-111464</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-d7hp-agi1" target="_blank">https://www.oscs1024.com/hd/MPS-d7hp-agi1</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-i7xq-4wam" target="_blank">https://www.oscs1024.com/hd/MPS-i7xq-4wam</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>迅睿CMS SQL注入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-120347</p>
+                <h2>WP Fastest Cache信息泄露</h2>
+                <p><strong>编号：</strong>CVE-2026-111464</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-d7hp-agi1" target="_blank">https://www.oscs1024.com/hd/MPS-d7hp-agi1</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-i7xq-4wam" target="_blank">https://www.oscs1024.com/hd/MPS-i7xq-4wam</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>迅睿CMS通知模板代码注入</title>
-            <link>https://www.oscs1024.com/hd/MPS-19kj-l3u4</link>
-            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-120348</guid>
+            <title>libslirp队列指针损坏</title>
+            <link>https://www.oscs1024.com/hd/MPS-1w3e-ifzx</link>
+            <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-120831</guid>
             <description><![CDATA[
-                <h2>迅睿CMS通知模板代码注入</h2>
-                <p><strong>编号：</strong>CVE-2026-120348</p>
+                <h2>libslirp队列指针损坏</h2>
+                <p><strong>编号：</strong>CVE-2026-120831</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-19kj-l3u4" target="_blank">https://www.oscs1024.com/hd/MPS-19kj-l3u4</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-1w3e-ifzx" target="_blank">https://www.oscs1024.com/hd/MPS-1w3e-ifzx</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>迅睿CMS通知模板代码注入</h2>
-                <p><strong>编号：</strong>CVE-2026-120348</p>
+                <h2>libslirp队列指针损坏</h2>
+                <p><strong>编号：</strong>CVE-2026-120831</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-19kj-l3u4" target="_blank">https://www.oscs1024.com/hd/MPS-19kj-l3u4</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-1w3e-ifzx" target="_blank">https://www.oscs1024.com/hd/MPS-1w3e-ifzx</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>WN551X3-A命令注入漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-kfzi-45jo</link>
-            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-120345</guid>
+            <title>Zyxel固件缓冲区溢出</title>
+            <link>https://www.oscs1024.com/hd/MPS-pa0s-8y2w</link>
+            <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-76955</guid>
             <description><![CDATA[
-                <h2>WN551X3-A命令注入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-120345</p>
+                <h2>Zyxel固件缓冲区溢出</h2>
+                <p><strong>编号：</strong>CVE-2026-76955</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-kfzi-45jo" target="_blank">https://www.oscs1024.com/hd/MPS-kfzi-45jo</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-pa0s-8y2w" target="_blank">https://www.oscs1024.com/hd/MPS-pa0s-8y2w</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>WN551X3-A命令注入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-120345</p>
+                <h2>Zyxel固件缓冲区溢出</h2>
+                <p><strong>编号：</strong>CVE-2026-76955</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-kfzi-45jo" target="_blank">https://www.oscs1024.com/hd/MPS-kfzi-45jo</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-pa0s-8y2w" target="_blank">https://www.oscs1024.com/hd/MPS-pa0s-8y2w</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>WSO2系统API越权漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-0473-evk1</link>
-            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2025-11969</guid>
+            <title>GS1900越界写入漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-p8dz-otvw</link>
+            <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-107441</guid>
             <description><![CDATA[
-                <h2>WSO2系统API越权漏洞</h2>
-                <p><strong>编号：</strong>CVE-2025-11969</p>
+                <h2>GS1900越界写入漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-107441</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-0473-evk1" target="_blank">https://www.oscs1024.com/hd/MPS-0473-evk1</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-p8dz-otvw" target="_blank">https://www.oscs1024.com/hd/MPS-p8dz-otvw</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>WSO2系统API越权漏洞</h2>
-                <p><strong>编号：</strong>CVE-2025-11969</p>
+                <h2>GS1900越界写入漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-107441</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-0473-evk1" target="_blank">https://www.oscs1024.com/hd/MPS-0473-evk1</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-p8dz-otvw" target="_blank">https://www.oscs1024.com/hd/MPS-p8dz-otvw</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>WSO2账户锁定绕过</title>
-            <link>https://www.oscs1024.com/hd/MPS-iatj-l85b</link>
-            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2024-5617</guid>
+            <title>labbench反序列化漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-yg2s-7i8r</link>
+            <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-120833</guid>
             <description><![CDATA[
-                <h2>WSO2账户锁定绕过</h2>
-                <p><strong>编号：</strong>CVE-2024-5617</p>
+                <h2>labbench反序列化漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-120833</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-iatj-l85b" target="_blank">https://www.oscs1024.com/hd/MPS-iatj-l85b</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-yg2s-7i8r" target="_blank">https://www.oscs1024.com/hd/MPS-yg2s-7i8r</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>WSO2账户锁定绕过</h2>
-                <p><strong>编号：</strong>CVE-2024-5617</p>
+                <h2>labbench反序列化漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-120833</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-iatj-l85b" target="_blank">https://www.oscs1024.com/hd/MPS-iatj-l85b</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-yg2s-7i8r" target="_blank">https://www.oscs1024.com/hd/MPS-yg2s-7i8r</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>WN551X3-A命令注入</title>
-            <link>https://www.oscs1024.com/hd/MPS-mknp-djwc</link>
-            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-120344</guid>
+            <title>Octo STS信任策略泄露</title>
+            <link>https://www.oscs1024.com/hd/MPS-etlq-wy48</link>
+            <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-105770</guid>
             <description><![CDATA[
-                <h2>WN551X3-A命令注入</h2>
-                <p><strong>编号：</strong>CVE-2026-120344</p>
+                <h2>Octo STS信任策略泄露</h2>
+                <p><strong>编号：</strong>CVE-2026-105770</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-mknp-djwc" target="_blank">https://www.oscs1024.com/hd/MPS-mknp-djwc</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-etlq-wy48" target="_blank">https://www.oscs1024.com/hd/MPS-etlq-wy48</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>WN551X3-A命令注入</h2>
-                <p><strong>编号：</strong>CVE-2026-120344</p>
+                <h2>Octo STS信任策略泄露</h2>
+                <p><strong>编号：</strong>CVE-2026-105770</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-mknp-djwc" target="_blank">https://www.oscs1024.com/hd/MPS-mknp-djwc</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-etlq-wy48" target="_blank">https://www.oscs1024.com/hd/MPS-etlq-wy48</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>课堂项目存储型XSS</title>
-            <link>https://www.oscs1024.com/hd/MPS-f971-vwum</link>
-            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-120343</guid>
+            <title>libslirp越界读取漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-d7cn-6pqu</link>
+            <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-120830</guid>
             <description><![CDATA[
-                <h2>课堂项目存储型XSS</h2>
-                <p><strong>编号：</strong>CVE-2026-120343</p>
+                <h2>libslirp越界读取漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-120830</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-f971-vwum" target="_blank">https://www.oscs1024.com/hd/MPS-f971-vwum</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-d7cn-6pqu" target="_blank">https://www.oscs1024.com/hd/MPS-d7cn-6pqu</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>课堂项目存储型XSS</h2>
-                <p><strong>编号：</strong>CVE-2026-120343</p>
+                <h2>libslirp越界读取漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-120830</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-f971-vwum" target="_blank">https://www.oscs1024.com/hd/MPS-f971-vwum</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-d7cn-6pqu" target="_blank">https://www.oscs1024.com/hd/MPS-d7cn-6pqu</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>CloudClassroom SQL注入</title>
-            <link>https://www.oscs1024.com/hd/MPS-z3sb-cdxj</link>
-            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-120342</guid>
+            <title>EasyIO认证绕过漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-gtqo-1n3r</link>
+            <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-71450</guid>
             <description><![CDATA[
-                <h2>CloudClassroom SQL注入</h2>
-                <p><strong>编号：</strong>CVE-2026-120342</p>
+                <h2>EasyIO认证绕过漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-71450</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-z3sb-cdxj" target="_blank">https://www.oscs1024.com/hd/MPS-z3sb-cdxj</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-gtqo-1n3r" target="_blank">https://www.oscs1024.com/hd/MPS-gtqo-1n3r</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>CloudClassroom SQL注入</h2>
-                <p><strong>编号：</strong>CVE-2026-120342</p>
+                <h2>EasyIO认证绕过漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-71450</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-z3sb-cdxj" target="_blank">https://www.oscs1024.com/hd/MPS-z3sb-cdxj</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-gtqo-1n3r" target="_blank">https://www.oscs1024.com/hd/MPS-gtqo-1n3r</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>学生详情页重定向后执行</title>
-            <link>https://www.oscs1024.com/hd/MPS-lgxm-wf0y</link>
-            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-120341</guid>
+            <title>PyMuPDF栈缓冲区溢出</title>
+            <link>https://www.oscs1024.com/hd/MPS-jiq9-k2p1</link>
+            <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-120752</guid>
             <description><![CDATA[
-                <h2>学生详情页重定向后执行</h2>
-                <p><strong>编号：</strong>CVE-2026-120341</p>
+                <h2>PyMuPDF栈缓冲区溢出</h2>
+                <p><strong>编号：</strong>CVE-2026-120752</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-lgxm-wf0y" target="_blank">https://www.oscs1024.com/hd/MPS-lgxm-wf0y</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-jiq9-k2p1" target="_blank">https://www.oscs1024.com/hd/MPS-jiq9-k2p1</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>学生详情页重定向后执行</h2>
-                <p><strong>编号：</strong>CVE-2026-120341</p>
+                <h2>PyMuPDF栈缓冲区溢出</h2>
+                <p><strong>编号：</strong>CVE-2026-120752</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-lgxm-wf0y" target="_blank">https://www.oscs1024.com/hd/MPS-lgxm-wf0y</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-jiq9-k2p1" target="_blank">https://www.oscs1024.com/hd/MPS-jiq9-k2p1</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>课堂项目会话未失效</title>
-            <link>https://www.oscs1024.com/hd/MPS-czo3-xw0q</link>
-            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-120340</guid>
+            <title>Welcart反射型XSS</title>
+            <link>https://www.oscs1024.com/hd/MPS-x8q6-um4h</link>
+            <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-120597</guid>
             <description><![CDATA[
-                <h2>课堂项目会话未失效</h2>
-                <p><strong>编号：</strong>CVE-2026-120340</p>
+                <h2>Welcart反射型XSS</h2>
+                <p><strong>编号：</strong>CVE-2026-120597</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-czo3-xw0q" target="_blank">https://www.oscs1024.com/hd/MPS-czo3-xw0q</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-x8q6-um4h" target="_blank">https://www.oscs1024.com/hd/MPS-x8q6-um4h</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>课堂项目会话未失效</h2>
-                <p><strong>编号：</strong>CVE-2026-120340</p>
+                <h2>Welcart反射型XSS</h2>
+                <p><strong>编号：</strong>CVE-2026-120597</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-02</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-czo3-xw0q" target="_blank">https://www.oscs1024.com/hd/MPS-czo3-xw0q</a></p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-x8q6-um4h" target="_blank">https://www.oscs1024.com/hd/MPS-x8q6-um4h</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>WikiAndPad 组件导出不当漏洞(CVE-2026-107025)</title>
+            <link>https://ti.qianxin.com/vulnerability/CVE-2026-107025</link>
+            <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-107025</guid>
+            <description><![CDATA[
+                <h2>WikiAndPad 组件导出不当漏洞(CVE-2026-107025)</h2>
+                <p><strong>编号：</strong>CVE-2026-107025</p>
+                <p><strong>来源：</strong>奇安信CERT</p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-107025" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-107025</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>WikiAndPad 组件导出不当漏洞(CVE-2026-107025)</h2>
+                <p><strong>编号：</strong>CVE-2026-107025</p>
+                <p><strong>来源：</strong>奇安信CERT</p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-107025" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-107025</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>rubenalfon Pile 权限配置不当漏洞(CVE-2026-107029)</title>
+            <link>https://ti.qianxin.com/vulnerability/CVE-2026-107029</link>
+            <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-107029</guid>
+            <description><![CDATA[
+                <h2>rubenalfon Pile 权限配置不当漏洞(CVE-2026-107029)</h2>
+                <p><strong>编号：</strong>CVE-2026-107029</p>
+                <p><strong>来源：</strong>奇安信CERT</p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-107029" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-107029</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>rubenalfon Pile 权限配置不当漏洞(CVE-2026-107029)</h2>
+                <p><strong>编号：</strong>CVE-2026-107029</p>
+                <p><strong>来源：</strong>奇安信CERT</p>
+                <p><strong>时间：</strong>2026-11-03</p>
+                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-107029" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-107029</a></p>
             ]]></content:encoded>
         </item>
 
