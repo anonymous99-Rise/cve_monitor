@@ -5,887 +5,215 @@
         <link>https://github.com/anonymous99-Rise/cve_monitor</link>
         <description>威胁情报汇总 - 包含每日和每周威胁情报</description>
         <language>zh-CN</language>
-        <lastBuildDate>Wed, 04 Nov 2026 07:13:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Nov 2026 07:40:39 GMT</lastBuildDate>
 
         <item>
-            <title>OpenOffice本地文件包含漏洞</title>
-            <link>https://www.openwall.com/lists/oss-security/2026/11/03/27</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-90627</guid>
+            <title>Essential Real Estate发票越权信息泄露漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-6zdy-nh3f</link>
+            <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-90967</guid>
             <description><![CDATA[
-                <h2>OpenOffice本地文件包含漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-90627</p>
+                <h2>Essential Real Estate发票越权信息泄露漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-90967</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://www.openwall.com/lists/oss-security/2026/11/03/27" target="_blank">https://www.openwall.com/lists/oss-security/2026/11/03/27</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-6zdy-nh3f" target="_blank">https://www.oscs1024.com/hd/MPS-6zdy-nh3f</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>OpenOffice本地文件包含漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-90627</p>
+                <h2>Essential Real Estate发票越权信息泄露漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-90967</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://www.openwall.com/lists/oss-security/2026/11/03/27" target="_blank">https://www.openwall.com/lists/oss-security/2026/11/03/27</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-6zdy-nh3f" target="_blank">https://www.oscs1024.com/hd/MPS-6zdy-nh3f</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>OpenOffice DXF导入堆缓冲区溢出漏洞</title>
-            <link>https://www.openwall.com/lists/oss-security/2026/11/03/23</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-59267</guid>
+            <title>EWWW Image Optimizer 存储型XSS漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-o52h-ypd6</link>
+            <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-91049</guid>
             <description><![CDATA[
-                <h2>OpenOffice DXF导入堆缓冲区溢出漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-59267</p>
+                <h2>EWWW Image Optimizer 存储型XSS漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-91049</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://www.openwall.com/lists/oss-security/2026/11/03/23" target="_blank">https://www.openwall.com/lists/oss-security/2026/11/03/23</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-o52h-ypd6" target="_blank">https://www.oscs1024.com/hd/MPS-o52h-ypd6</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>OpenOffice DXF导入堆缓冲区溢出漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-59267</p>
+                <h2>EWWW Image Optimizer 存储型XSS漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-91049</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://www.openwall.com/lists/oss-security/2026/11/03/23" target="_blank">https://www.openwall.com/lists/oss-security/2026/11/03/23</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-o52h-ypd6" target="_blank">https://www.oscs1024.com/hd/MPS-o52h-ypd6</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>OpenOffice PDF导入越界写漏洞</title>
-            <link>https://www.openwall.com/lists/oss-security/2026/11/03/26</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-90626</guid>
+            <title>Essential Real Estate 未授权任意邮件发送</title>
+            <link>https://www.oscs1024.com/hd/MPS-rio5-m4nd</link>
+            <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-90964</guid>
             <description><![CDATA[
-                <h2>OpenOffice PDF导入越界写漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-90626</p>
+                <h2>Essential Real Estate 未授权任意邮件发送</h2>
+                <p><strong>编号：</strong>CVE-2026-90964</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://www.openwall.com/lists/oss-security/2026/11/03/26" target="_blank">https://www.openwall.com/lists/oss-security/2026/11/03/26</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-rio5-m4nd" target="_blank">https://www.oscs1024.com/hd/MPS-rio5-m4nd</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>OpenOffice PDF导入越界写漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-90626</p>
+                <h2>Essential Real Estate 未授权任意邮件发送</h2>
+                <p><strong>编号：</strong>CVE-2026-90964</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://www.openwall.com/lists/oss-security/2026/11/03/26" target="_blank">https://www.openwall.com/lists/oss-security/2026/11/03/26</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-rio5-m4nd" target="_blank">https://www.oscs1024.com/hd/MPS-rio5-m4nd</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>OpenOffice 本地文件包含漏洞</title>
-            <link>http://www.mail-archive.com/announce@apache.org/msg12514.html</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-90632</guid>
+            <title>WP Event Manager 未授权文章覆盖漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-lpza-7ne6</link>
+            <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-86442</guid>
             <description><![CDATA[
-                <h2>OpenOffice 本地文件包含漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-90632</p>
+                <h2>WP Event Manager 未授权文章覆盖漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-86442</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12514.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12514.html</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-lpza-7ne6" target="_blank">https://www.oscs1024.com/hd/MPS-lpza-7ne6</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>OpenOffice 本地文件包含漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-90632</p>
+                <h2>WP Event Manager 未授权文章覆盖漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-86442</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12514.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12514.html</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-lpza-7ne6" target="_blank">https://www.oscs1024.com/hd/MPS-lpza-7ne6</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>OpenOffice 文档内容替换欺骗漏洞</title>
-            <link>http://www.mail-archive.com/announce@apache.org/msg12521.html</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-59263</guid>
+            <title>All In One Login 账户接管漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-xjzt-fhe6</link>
+            <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-19256</guid>
             <description><![CDATA[
-                <h2>OpenOffice 文档内容替换欺骗漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-59263</p>
+                <h2>All In One Login 账户接管漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-19256</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12521.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12521.html</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-xjzt-fhe6" target="_blank">https://www.oscs1024.com/hd/MPS-xjzt-fhe6</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>OpenOffice 文档内容替换欺骗漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-59263</p>
+                <h2>All In One Login 账户接管漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-19256</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12521.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12521.html</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-xjzt-fhe6" target="_blank">https://www.oscs1024.com/hd/MPS-xjzt-fhe6</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Apache OpenOffice WMF导入越界访问漏洞</title>
-            <link>http://www.mail-archive.com/announce@apache.org/msg12520.html</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-90629</guid>
+            <title>iTerm2 参数注入漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-4mg0-csr8</link>
+            <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-123014</guid>
             <description><![CDATA[
-                <h2>Apache OpenOffice WMF导入越界访问漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-90629</p>
+                <h2>iTerm2 参数注入漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-123014</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12520.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12520.html</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-4mg0-csr8" target="_blank">https://www.oscs1024.com/hd/MPS-4mg0-csr8</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Apache OpenOffice WMF导入越界访问漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-90629</p>
+                <h2>iTerm2 参数注入漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-123014</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12520.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12520.html</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-4mg0-csr8" target="_blank">https://www.oscs1024.com/hd/MPS-4mg0-csr8</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>紫光展锐Bootloader越界写入漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-16rj-2av7</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-80335</guid>
+            <title>LiteSpeed Cache 敏感信息泄露漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-uz84-tcbr</link>
+            <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-93389</guid>
             <description><![CDATA[
-                <h2>紫光展锐Bootloader越界写入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-80335</p>
+                <h2>LiteSpeed Cache 敏感信息泄露漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-93389</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-16rj-2av7" target="_blank">https://www.oscs1024.com/hd/MPS-16rj-2av7</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-uz84-tcbr" target="_blank">https://www.oscs1024.com/hd/MPS-uz84-tcbr</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>紫光展锐Bootloader越界写入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-80335</p>
+                <h2>LiteSpeed Cache 敏感信息泄露漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-93389</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-16rj-2av7" target="_blank">https://www.oscs1024.com/hd/MPS-16rj-2av7</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-uz84-tcbr" target="_blank">https://www.oscs1024.com/hd/MPS-uz84-tcbr</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>展锐Modem固件拒绝服务漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-s0vt-uhow</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-79405</guid>
+            <title>Gogs只读权限推送绕过漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-embd-snz2</link>
+            <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-123012</guid>
             <description><![CDATA[
-                <h2>展锐Modem固件拒绝服务漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-79405</p>
+                <h2>Gogs只读权限推送绕过漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-123012</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-s0vt-uhow" target="_blank">https://www.oscs1024.com/hd/MPS-s0vt-uhow</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-embd-snz2" target="_blank">https://www.oscs1024.com/hd/MPS-embd-snz2</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>展锐Modem固件拒绝服务漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-79405</p>
+                <h2>Gogs只读权限推送绕过漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-123012</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-s0vt-uhow" target="_blank">https://www.oscs1024.com/hd/MPS-s0vt-uhow</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-embd-snz2" target="_blank">https://www.oscs1024.com/hd/MPS-embd-snz2</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>OpenOffice WW8 PLCF堆越界写漏洞</title>
-            <link>http://www.mail-archive.com/announce@apache.org/msg12519.html</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-59268</guid>
+            <title>ST传感器HAL通道数越界漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-wjop-02b4</link>
+            <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-123011</guid>
             <description><![CDATA[
-                <h2>OpenOffice WW8 PLCF堆越界写漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-59268</p>
+                <h2>ST传感器HAL通道数越界漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-123011</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12519.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12519.html</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-wjop-02b4" target="_blank">https://www.oscs1024.com/hd/MPS-wjop-02b4</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>OpenOffice WW8 PLCF堆越界写漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-59268</p>
+                <h2>ST传感器HAL通道数越界漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-123011</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12519.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12519.html</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-wjop-02b4" target="_blank">https://www.oscs1024.com/hd/MPS-wjop-02b4</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>OpenOffice安装包路径劫持漏洞</title>
-            <link>http://www.mail-archive.com/announce@apache.org/msg12522.html</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-59264</guid>
+            <title>netlify-okta-auth未验证iss漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-bziv-jkoa</link>
+            <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-123010</guid>
             <description><![CDATA[
-                <h2>OpenOffice安装包路径劫持漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-59264</p>
+                <h2>netlify-okta-auth未验证iss漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-123010</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12522.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12522.html</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-bziv-jkoa" target="_blank">https://www.oscs1024.com/hd/MPS-bziv-jkoa</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>OpenOffice安装包路径劫持漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-59264</p>
+                <h2>netlify-okta-auth未验证iss漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-123010</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12522.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12522.html</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome Autofill 内存错误引用漏洞(CVE-2026-121202)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121202</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121202</guid>
-            <description><![CDATA[
-                <h2>Google Chrome Autofill 内存错误引用漏洞(CVE-2026-121202)</h2>
-                <p><strong>编号：</strong>CVE-2026-121202</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121202" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121202</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome Autofill 内存错误引用漏洞(CVE-2026-121202)</h2>
-                <p><strong>编号：</strong>CVE-2026-121202</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121202" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121202</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome WebGL 越界写入漏洞(CVE-2026-120931)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-120931</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-120931</guid>
-            <description><![CDATA[
-                <h2>Google Chrome WebGL 越界写入漏洞(CVE-2026-120931)</h2>
-                <p><strong>编号：</strong>CVE-2026-120931</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-120931" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-120931</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome WebGL 越界写入漏洞(CVE-2026-120931)</h2>
-                <p><strong>编号：</strong>CVE-2026-120931</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-120931" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-120931</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome ANGLE 内存错误引用漏洞(CVE-2026-121148)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121148</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121148</guid>
-            <description><![CDATA[
-                <h2>Google Chrome ANGLE 内存错误引用漏洞(CVE-2026-121148)</h2>
-                <p><strong>编号：</strong>CVE-2026-121148</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121148" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121148</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome ANGLE 内存错误引用漏洞(CVE-2026-121148)</h2>
-                <p><strong>编号：</strong>CVE-2026-121148</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121148" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121148</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome WebXR 内存错误引用漏洞(CVE-2026-121076)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121076</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121076</guid>
-            <description><![CDATA[
-                <h2>Google Chrome WebXR 内存错误引用漏洞(CVE-2026-121076)</h2>
-                <p><strong>编号：</strong>CVE-2026-121076</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121076" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121076</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome WebXR 内存错误引用漏洞(CVE-2026-121076)</h2>
-                <p><strong>编号：</strong>CVE-2026-121076</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121076" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121076</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome WebGPU 内存错误引用漏洞(CVE-2026-121089)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121089</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121089</guid>
-            <description><![CDATA[
-                <h2>Google Chrome WebGPU 内存错误引用漏洞(CVE-2026-121089)</h2>
-                <p><strong>编号：</strong>CVE-2026-121089</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121089" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121089</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome WebGPU 内存错误引用漏洞(CVE-2026-121089)</h2>
-                <p><strong>编号：</strong>CVE-2026-121089</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121089" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121089</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>SonicWall Global Management System 信息泄露漏洞(CVE-2026-109593)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-109593</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-109593</guid>
-            <description><![CDATA[
-                <h2>SonicWall Global Management System 信息泄露漏洞(CVE-2026-109593)</h2>
-                <p><strong>编号：</strong>CVE-2026-109593</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-109593" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-109593</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>SonicWall Global Management System 信息泄露漏洞(CVE-2026-109593)</h2>
-                <p><strong>编号：</strong>CVE-2026-109593</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-109593" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-109593</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome ANGLE 内存破坏漏洞(CVE-2026-121229)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121229</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121229</guid>
-            <description><![CDATA[
-                <h2>Google Chrome ANGLE 内存破坏漏洞(CVE-2026-121229)</h2>
-                <p><strong>编号：</strong>CVE-2026-121229</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121229" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121229</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome ANGLE 内存破坏漏洞(CVE-2026-121229)</h2>
-                <p><strong>编号：</strong>CVE-2026-121229</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121229" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121229</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>gohttpserver 路径遍历漏洞(CVE-2026-38600)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-38600</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-38600</guid>
-            <description><![CDATA[
-                <h2>gohttpserver 路径遍历漏洞(CVE-2026-38600)</h2>
-                <p><strong>编号：</strong>CVE-2026-38600</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-38600" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-38600</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>gohttpserver 路径遍历漏洞(CVE-2026-38600)</h2>
-                <p><strong>编号：</strong>CVE-2026-38600</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-38600" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-38600</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome 移动端内存错误引用漏洞(CVE-2026-121077)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121077</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121077</guid>
-            <description><![CDATA[
-                <h2>Google Chrome 移动端内存错误引用漏洞(CVE-2026-121077)</h2>
-                <p><strong>编号：</strong>CVE-2026-121077</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121077" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121077</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome 移动端内存错误引用漏洞(CVE-2026-121077)</h2>
-                <p><strong>编号：</strong>CVE-2026-121077</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121077" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121077</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome TabStrip 内存错误引用漏洞(CVE-2026-121114)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121114</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121114</guid>
-            <description><![CDATA[
-                <h2>Google Chrome TabStrip 内存错误引用漏洞(CVE-2026-121114)</h2>
-                <p><strong>编号：</strong>CVE-2026-121114</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121114" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121114</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome TabStrip 内存错误引用漏洞(CVE-2026-121114)</h2>
-                <p><strong>编号：</strong>CVE-2026-121114</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121114" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121114</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome 内存错误引用漏洞(CVE-2026-121126)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121126</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121126</guid>
-            <description><![CDATA[
-                <h2>Google Chrome 内存错误引用漏洞(CVE-2026-121126)</h2>
-                <p><strong>编号：</strong>CVE-2026-121126</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121126" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121126</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome 内存错误引用漏洞(CVE-2026-121126)</h2>
-                <p><strong>编号：</strong>CVE-2026-121126</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121126" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121126</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome FileSystem 授权不当漏洞(CVE-2026-121071)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121071</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121071</guid>
-            <description><![CDATA[
-                <h2>Google Chrome FileSystem 授权不当漏洞(CVE-2026-121071)</h2>
-                <p><strong>编号：</strong>CVE-2026-121071</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121071" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121071</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome FileSystem 授权不当漏洞(CVE-2026-121071)</h2>
-                <p><strong>编号：</strong>CVE-2026-121071</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121071" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121071</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome ANGLE 缓冲区溢出漏洞(CVE-2026-121249)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121249</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121249</guid>
-            <description><![CDATA[
-                <h2>Google Chrome ANGLE 缓冲区溢出漏洞(CVE-2026-121249)</h2>
-                <p><strong>编号：</strong>CVE-2026-121249</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121249" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121249</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome ANGLE 缓冲区溢出漏洞(CVE-2026-121249)</h2>
-                <p><strong>编号：</strong>CVE-2026-121249</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121249" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121249</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome ANGLE 越界写入漏洞(CVE-2026-121037)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121037</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121037</guid>
-            <description><![CDATA[
-                <h2>Google Chrome ANGLE 越界写入漏洞(CVE-2026-121037)</h2>
-                <p><strong>编号：</strong>CVE-2026-121037</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121037" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121037</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome ANGLE 越界写入漏洞(CVE-2026-121037)</h2>
-                <p><strong>编号：</strong>CVE-2026-121037</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121037" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121037</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome GPU 内存破坏漏洞(CVE-2026-121074)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121074</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121074</guid>
-            <description><![CDATA[
-                <h2>Google Chrome GPU 内存破坏漏洞(CVE-2026-121074)</h2>
-                <p><strong>编号：</strong>CVE-2026-121074</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121074" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121074</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome GPU 内存破坏漏洞(CVE-2026-121074)</h2>
-                <p><strong>编号：</strong>CVE-2026-121074</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121074" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121074</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Network UPS Tools upsmon 命令注入漏洞(CVE-2026-54161)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-54161</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-54161</guid>
-            <description><![CDATA[
-                <h2>Network UPS Tools upsmon 命令注入漏洞(CVE-2026-54161)</h2>
-                <p><strong>编号：</strong>CVE-2026-54161</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-54161" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-54161</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Network UPS Tools upsmon 命令注入漏洞(CVE-2026-54161)</h2>
-                <p><strong>编号：</strong>CVE-2026-54161</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-54161" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-54161</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome DevTools 授权不正确漏洞(CVE-2026-121030)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121030</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121030</guid>
-            <description><![CDATA[
-                <h2>Google Chrome DevTools 授权不正确漏洞(CVE-2026-121030)</h2>
-                <p><strong>编号：</strong>CVE-2026-121030</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121030" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121030</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome DevTools 授权不正确漏洞(CVE-2026-121030)</h2>
-                <p><strong>编号：</strong>CVE-2026-121030</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121030" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121030</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome Skia 堆缓冲区溢出漏洞(CVE-2026-121086)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121086</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121086</guid>
-            <description><![CDATA[
-                <h2>Google Chrome Skia 堆缓冲区溢出漏洞(CVE-2026-121086)</h2>
-                <p><strong>编号：</strong>CVE-2026-121086</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121086" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121086</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome Skia 堆缓冲区溢出漏洞(CVE-2026-121086)</h2>
-                <p><strong>编号：</strong>CVE-2026-121086</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121086" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121086</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome 内存错误引用漏洞(CVE-2026-121214)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121214</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121214</guid>
-            <description><![CDATA[
-                <h2>Google Chrome 内存错误引用漏洞(CVE-2026-121214)</h2>
-                <p><strong>编号：</strong>CVE-2026-121214</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121214" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121214</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome 内存错误引用漏洞(CVE-2026-121214)</h2>
-                <p><strong>编号：</strong>CVE-2026-121214</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121214" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121214</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome Views 内存错误引用漏洞(CVE-2026-121034)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121034</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121034</guid>
-            <description><![CDATA[
-                <h2>Google Chrome Views 内存错误引用漏洞(CVE-2026-121034)</h2>
-                <p><strong>编号：</strong>CVE-2026-121034</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121034" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121034</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome Views 内存错误引用漏洞(CVE-2026-121034)</h2>
-                <p><strong>编号：</strong>CVE-2026-121034</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121034" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121034</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome Prerender 内存错误引用漏洞(CVE-2026-121035)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121035</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121035</guid>
-            <description><![CDATA[
-                <h2>Google Chrome Prerender 内存错误引用漏洞(CVE-2026-121035)</h2>
-                <p><strong>编号：</strong>CVE-2026-121035</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121035" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121035</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome Prerender 内存错误引用漏洞(CVE-2026-121035)</h2>
-                <p><strong>编号：</strong>CVE-2026-121035</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121035" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121035</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome 授权不当沙箱逃逸漏洞(CVE-2026-121104)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121104</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121104</guid>
-            <description><![CDATA[
-                <h2>Google Chrome 授权不当沙箱逃逸漏洞(CVE-2026-121104)</h2>
-                <p><strong>编号：</strong>CVE-2026-121104</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121104" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121104</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome 授权不当沙箱逃逸漏洞(CVE-2026-121104)</h2>
-                <p><strong>编号：</strong>CVE-2026-121104</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121104" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121104</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome Dawn 堆缓冲区溢出漏洞(CVE-2026-121156)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121156</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121156</guid>
-            <description><![CDATA[
-                <h2>Google Chrome Dawn 堆缓冲区溢出漏洞(CVE-2026-121156)</h2>
-                <p><strong>编号：</strong>CVE-2026-121156</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121156" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121156</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome Dawn 堆缓冲区溢出漏洞(CVE-2026-121156)</h2>
-                <p><strong>编号：</strong>CVE-2026-121156</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121156" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121156</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome PictureInPicture 内存错误引用漏洞(CVE-2026-121185)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121185</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121185</guid>
-            <description><![CDATA[
-                <h2>Google Chrome PictureInPicture 内存错误引用漏洞(CVE-2026-121185)</h2>
-                <p><strong>编号：</strong>CVE-2026-121185</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121185" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121185</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome PictureInPicture 内存错误引用漏洞(CVE-2026-121185)</h2>
-                <p><strong>编号：</strong>CVE-2026-121185</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121185" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121185</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome 内存错误引用漏洞(CVE-2026-121241)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121241</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121241</guid>
-            <description><![CDATA[
-                <h2>Google Chrome 内存错误引用漏洞(CVE-2026-121241)</h2>
-                <p><strong>编号：</strong>CVE-2026-121241</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121241" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121241</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome 内存错误引用漏洞(CVE-2026-121241)</h2>
-                <p><strong>编号：</strong>CVE-2026-121241</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121241" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121241</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome 权限提升漏洞(CVE-2026-121234)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121234</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121234</guid>
-            <description><![CDATA[
-                <h2>Google Chrome 权限提升漏洞(CVE-2026-121234)</h2>
-                <p><strong>编号：</strong>CVE-2026-121234</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121234" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121234</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome 权限提升漏洞(CVE-2026-121234)</h2>
-                <p><strong>编号：</strong>CVE-2026-121234</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121234" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121234</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome 内存错误引用漏洞(CVE-2026-121189)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121189</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121189</guid>
-            <description><![CDATA[
-                <h2>Google Chrome 内存错误引用漏洞(CVE-2026-121189)</h2>
-                <p><strong>编号：</strong>CVE-2026-121189</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121189" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121189</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome 内存错误引用漏洞(CVE-2026-121189)</h2>
-                <p><strong>编号：</strong>CVE-2026-121189</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121189" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121189</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome Dawn 堆缓冲区溢出漏洞(CVE-2026-121247)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121247</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121247</guid>
-            <description><![CDATA[
-                <h2>Google Chrome Dawn 堆缓冲区溢出漏洞(CVE-2026-121247)</h2>
-                <p><strong>编号：</strong>CVE-2026-121247</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121247" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121247</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome Dawn 堆缓冲区溢出漏洞(CVE-2026-121247)</h2>
-                <p><strong>编号：</strong>CVE-2026-121247</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121247" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121247</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome DevTools 引用解析错误漏洞(CVE-2026-121200)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121200</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121200</guid>
-            <description><![CDATA[
-                <h2>Google Chrome DevTools 引用解析错误漏洞(CVE-2026-121200)</h2>
-                <p><strong>编号：</strong>CVE-2026-121200</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121200" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121200</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome DevTools 引用解析错误漏洞(CVE-2026-121200)</h2>
-                <p><strong>编号：</strong>CVE-2026-121200</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121200" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121200</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Google Chrome 授权不当漏洞(CVE-2026-121060)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-121060</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-121060</guid>
-            <description><![CDATA[
-                <h2>Google Chrome 授权不当漏洞(CVE-2026-121060)</h2>
-                <p><strong>编号：</strong>CVE-2026-121060</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121060" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121060</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome 授权不当漏洞(CVE-2026-121060)</h2>
-                <p><strong>编号：</strong>CVE-2026-121060</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-121060" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-121060</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Puppet Server 远程代码执行漏洞(CVE-2026-115731)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-115731</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-115731</guid>
-            <description><![CDATA[
-                <h2>Puppet Server 远程代码执行漏洞(CVE-2026-115731)</h2>
-                <p><strong>编号：</strong>CVE-2026-115731</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-115731" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-115731</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Puppet Server 远程代码执行漏洞(CVE-2026-115731)</h2>
-                <p><strong>编号：</strong>CVE-2026-115731</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-115731" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-115731</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>SilverStripe MultiFactor Authentication 多因素认证绕过漏洞(CVE-2026-55186)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-55186</link>
-            <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-55186</guid>
-            <description><![CDATA[
-                <h2>SilverStripe MultiFactor Authentication 多因素认证绕过漏洞(CVE-2026-55186)</h2>
-                <p><strong>编号：</strong>CVE-2026-55186</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-55186" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-55186</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>SilverStripe MultiFactor Authentication 多因素认证绕过漏洞(CVE-2026-55186)</h2>
-                <p><strong>编号：</strong>CVE-2026-55186</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-04</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-55186" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-55186</a></p>
+                <p><strong>时间：</strong>2026-11-05</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-bziv-jkoa" target="_blank">https://www.oscs1024.com/hd/MPS-bziv-jkoa</a></p>
             ]]></content:encoded>
         </item>
 
