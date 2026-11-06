@@ -5,7 +5,7 @@
         <link>https://github.com/anonymous99-Rise/cve_monitor</link>
         <description>威胁情报汇总 - 包含每日和每周威胁情报</description>
         <language>zh-CN</language>
-        <lastBuildDate>Fri, 06 Nov 2026 07:38:39 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Nov 2026 15:40:00 GMT</lastBuildDate>
 
         <item>
             <title>regexp2 拒绝服务漏洞</title>
@@ -235,6 +235,216 @@
                 <p><strong>来源：</strong>微步</p>
                 <p><strong>时间：</strong>2026-11-06</p>
                 <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2026-91288" target="_blank">https://x.threatbook.com/v5/vul/XVE-2026-91288</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>HCL AION WebSocket连接未加密</title>
+            <link>https://www.oscs1024.com/hd/MPS-2uxy-jcr5</link>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-5345</guid>
+            <description><![CDATA[
+                <h2>HCL AION WebSocket连接未加密</h2>
+                <p><strong>编号：</strong>CVE-2026-5345</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-2uxy-jcr5" target="_blank">https://www.oscs1024.com/hd/MPS-2uxy-jcr5</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>HCL AION WebSocket连接未加密</h2>
+                <p><strong>编号：</strong>CVE-2026-5345</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-2uxy-jcr5" target="_blank">https://www.oscs1024.com/hd/MPS-2uxy-jcr5</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>HCL AION COOP响应头缺失漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-i3r7-vec5</link>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-35113</guid>
+            <description><![CDATA[
+                <h2>HCL AION COOP响应头缺失漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35113</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-i3r7-vec5" target="_blank">https://www.oscs1024.com/hd/MPS-i3r7-vec5</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>HCL AION COOP响应头缺失漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35113</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-i3r7-vec5" target="_blank">https://www.oscs1024.com/hd/MPS-i3r7-vec5</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>HCL AION 信息暴露漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-zt8b-eqsx</link>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-35111</guid>
+            <description><![CDATA[
+                <h2>HCL AION 信息暴露漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35111</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-zt8b-eqsx" target="_blank">https://www.oscs1024.com/hd/MPS-zt8b-eqsx</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>HCL AION 信息暴露漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35111</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-zt8b-eqsx" target="_blank">https://www.oscs1024.com/hd/MPS-zt8b-eqsx</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>HCL AION 明文传输漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-os9y-1av7</link>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-35110</guid>
+            <description><![CDATA[
+                <h2>HCL AION 明文传输漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35110</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-os9y-1av7" target="_blank">https://www.oscs1024.com/hd/MPS-os9y-1av7</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>HCL AION 明文传输漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35110</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-os9y-1av7" target="_blank">https://www.oscs1024.com/hd/MPS-os9y-1av7</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>HCL AION开放重定向漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-4x5c-fr0h</link>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-35107</guid>
+            <description><![CDATA[
+                <h2>HCL AION开放重定向漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35107</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-4x5c-fr0h" target="_blank">https://www.oscs1024.com/hd/MPS-4x5c-fr0h</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>HCL AION开放重定向漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35107</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-4x5c-fr0h" target="_blank">https://www.oscs1024.com/hd/MPS-4x5c-fr0h</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>HCL AION开放重定向漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-cmlg-vrp6</link>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-35106</guid>
+            <description><![CDATA[
+                <h2>HCL AION开放重定向漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35106</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-cmlg-vrp6" target="_blank">https://www.oscs1024.com/hd/MPS-cmlg-vrp6</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>HCL AION开放重定向漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35106</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-cmlg-vrp6" target="_blank">https://www.oscs1024.com/hd/MPS-cmlg-vrp6</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>HCL AION开放重定向漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-nrvx-ju5k</link>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-35105</guid>
+            <description><![CDATA[
+                <h2>HCL AION开放重定向漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35105</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-nrvx-ju5k" target="_blank">https://www.oscs1024.com/hd/MPS-nrvx-ju5k</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>HCL AION开放重定向漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35105</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-nrvx-ju5k" target="_blank">https://www.oscs1024.com/hd/MPS-nrvx-ju5k</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>HCL AION 跨域隔离削弱漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-72z1-4cto</link>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-35112</guid>
+            <description><![CDATA[
+                <h2>HCL AION 跨域隔离削弱漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35112</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-72z1-4cto" target="_blank">https://www.oscs1024.com/hd/MPS-72z1-4cto</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>HCL AION 跨域隔离削弱漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35112</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-72z1-4cto" target="_blank">https://www.oscs1024.com/hd/MPS-72z1-4cto</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>HCL AION敏感信息缓存漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-4f9o-ah62</link>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-35109</guid>
+            <description><![CDATA[
+                <h2>HCL AION敏感信息缓存漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35109</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-4f9o-ah62" target="_blank">https://www.oscs1024.com/hd/MPS-4f9o-ah62</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>HCL AION敏感信息缓存漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-35109</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-4f9o-ah62" target="_blank">https://www.oscs1024.com/hd/MPS-4f9o-ah62</a></p>
+            ]]></content:encoded>
+        </item>
+
+        <item>
+            <title>HCL AION响应头注入漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-r1a7-p2z4</link>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-21850</guid>
+            <description><![CDATA[
+                <h2>HCL AION响应头注入漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-21850</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-r1a7-p2z4" target="_blank">https://www.oscs1024.com/hd/MPS-r1a7-p2z4</a></p>
+            ]]></description>
+            <content:encoded><![CDATA[
+                <h2>HCL AION响应头注入漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-21850</p>
+                <p><strong>来源：</strong>OSCS1024漏洞库</p>
+                <p><strong>时间：</strong>2026-11-06</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-r1a7-p2z4" target="_blank">https://www.oscs1024.com/hd/MPS-r1a7-p2z4</a></p>
             ]]></content:encoded>
         </item>
 
