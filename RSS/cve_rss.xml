@@ -5,446 +5,215 @@
         <link>https://github.com/anonymous99-Rise/cve_monitor</link>
         <description>威胁情报汇总 - 包含每日和每周威胁情报</description>
         <language>zh-CN</language>
-        <lastBuildDate>Fri, 06 Nov 2026 15:40:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Nov 2026 07:37:55 GMT</lastBuildDate>
 
         <item>
-            <title>regexp2 拒绝服务漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-ki0f-35dh</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-77299</guid>
+            <title>Airflow调度器反序列化</title>
+            <link>https://www.openwall.com/lists/oss-security/2026/11/09/10</link>
+            <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-96285</guid>
             <description><![CDATA[
-                <h2>regexp2 拒绝服务漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-77299</p>
+                <h2>Airflow调度器反序列化</h2>
+                <p><strong>编号：</strong>CVE-2026-96285</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-ki0f-35dh" target="_blank">https://www.oscs1024.com/hd/MPS-ki0f-35dh</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="https://www.openwall.com/lists/oss-security/2026/11/09/10" target="_blank">https://www.openwall.com/lists/oss-security/2026/11/09/10</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>regexp2 拒绝服务漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-77299</p>
+                <h2>Airflow调度器反序列化</h2>
+                <p><strong>编号：</strong>CVE-2026-96285</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-ki0f-35dh" target="_blank">https://www.oscs1024.com/hd/MPS-ki0f-35dh</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="https://www.openwall.com/lists/oss-security/2026/11/09/10" target="_blank">https://www.openwall.com/lists/oss-security/2026/11/09/10</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>PowerSYSTEM Center报表设计器SQL注入漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-d4ij-7n0r</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-63774</guid>
+            <title>Airflow告警反序列化漏洞</title>
+            <link>https://www.openwall.com/lists/oss-security/2026/11/09/7</link>
+            <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-82337</guid>
             <description><![CDATA[
-                <h2>PowerSYSTEM Center报表设计器SQL注入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-63774</p>
+                <h2>Airflow告警反序列化漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-82337</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-d4ij-7n0r" target="_blank">https://www.oscs1024.com/hd/MPS-d4ij-7n0r</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="https://www.openwall.com/lists/oss-security/2026/11/09/7" target="_blank">https://www.openwall.com/lists/oss-security/2026/11/09/7</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>PowerSYSTEM Center报表设计器SQL注入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-63774</p>
+                <h2>Airflow告警反序列化漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-82337</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-d4ij-7n0r" target="_blank">https://www.oscs1024.com/hd/MPS-d4ij-7n0r</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="https://www.openwall.com/lists/oss-security/2026/11/09/7" target="_blank">https://www.openwall.com/lists/oss-security/2026/11/09/7</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>PowerSYSTEM Center越权访问漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-knvu-q8xz</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-63017</guid>
+            <title>BeikeShop订单支付绕过</title>
+            <link>https://www.oscs1024.com/hd/MPS-kjgq-c9vs</link>
+            <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-124576</guid>
             <description><![CDATA[
-                <h2>PowerSYSTEM Center越权访问漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-63017</p>
+                <h2>BeikeShop订单支付绕过</h2>
+                <p><strong>编号：</strong>CVE-2026-124576</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-knvu-q8xz" target="_blank">https://www.oscs1024.com/hd/MPS-knvu-q8xz</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-kjgq-c9vs" target="_blank">https://www.oscs1024.com/hd/MPS-kjgq-c9vs</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>PowerSYSTEM Center越权访问漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-63017</p>
+                <h2>BeikeShop订单支付绕过</h2>
+                <p><strong>编号：</strong>CVE-2026-124576</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-knvu-q8xz" target="_blank">https://www.oscs1024.com/hd/MPS-knvu-q8xz</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-kjgq-c9vs" target="_blank">https://www.oscs1024.com/hd/MPS-kjgq-c9vs</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>libvmdk内存泄漏漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-cm7y-bsal</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-123268</guid>
+            <title>grok2api视频授权绕过</title>
+            <link>https://www.oscs1024.com/hd/MPS-ke3t-0cdm</link>
+            <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-124574</guid>
             <description><![CDATA[
-                <h2>libvmdk内存泄漏漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-123268</p>
+                <h2>grok2api视频授权绕过</h2>
+                <p><strong>编号：</strong>CVE-2026-124574</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-cm7y-bsal" target="_blank">https://www.oscs1024.com/hd/MPS-cm7y-bsal</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-ke3t-0cdm" target="_blank">https://www.oscs1024.com/hd/MPS-ke3t-0cdm</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>libvmdk内存泄漏漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-123268</p>
+                <h2>grok2api视频授权绕过</h2>
+                <p><strong>编号：</strong>CVE-2026-124574</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-cm7y-bsal" target="_blank">https://www.oscs1024.com/hd/MPS-cm7y-bsal</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-ke3t-0cdm" target="_blank">https://www.oscs1024.com/hd/MPS-ke3t-0cdm</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>libvmdk越界读取漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-30gn-7xhi</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-123269</guid>
+            <title>SSCMS后台登录验证码绕过</title>
+            <link>https://www.oscs1024.com/hd/MPS-25wf-m8qr</link>
+            <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-124575</guid>
             <description><![CDATA[
-                <h2>libvmdk越界读取漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-123269</p>
+                <h2>SSCMS后台登录验证码绕过</h2>
+                <p><strong>编号：</strong>CVE-2026-124575</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-30gn-7xhi" target="_blank">https://www.oscs1024.com/hd/MPS-30gn-7xhi</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-25wf-m8qr" target="_blank">https://www.oscs1024.com/hd/MPS-25wf-m8qr</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>libvmdk越界读取漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-123269</p>
+                <h2>SSCMS后台登录验证码绕过</h2>
+                <p><strong>编号：</strong>CVE-2026-124575</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-30gn-7xhi" target="_blank">https://www.oscs1024.com/hd/MPS-30gn-7xhi</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-25wf-m8qr" target="_blank">https://www.oscs1024.com/hd/MPS-25wf-m8qr</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>FTS3 Web Monitoring SQL注入漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-0ial-ng4c</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2025-71458</guid>
+            <title>Logseq本地API认证缺失</title>
+            <link>https://www.oscs1024.com/hd/MPS-res3-pak4</link>
+            <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-124573</guid>
             <description><![CDATA[
-                <h2>FTS3 Web Monitoring SQL注入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2025-71458</p>
+                <h2>Logseq本地API认证缺失</h2>
+                <p><strong>编号：</strong>CVE-2026-124573</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-0ial-ng4c" target="_blank">https://www.oscs1024.com/hd/MPS-0ial-ng4c</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-res3-pak4" target="_blank">https://www.oscs1024.com/hd/MPS-res3-pak4</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>FTS3 Web Monitoring SQL注入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2025-71458</p>
+                <h2>Logseq本地API认证缺失</h2>
+                <p><strong>编号：</strong>CVE-2026-124573</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-0ial-ng4c" target="_blank">https://www.oscs1024.com/hd/MPS-0ial-ng4c</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-res3-pak4" target="_blank">https://www.oscs1024.com/hd/MPS-res3-pak4</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Go工具链未公开细节安全漏洞</title>
-            <link>https://seclists.org/oss-sec/2026/q4/532</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-97042</guid>
+            <title>Dinky目录上传路径穿越</title>
+            <link>https://www.oscs1024.com/hd/MPS-6b0r-vw4h</link>
+            <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-124572</guid>
             <description><![CDATA[
-                <h2>Go工具链未公开细节安全漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-97042</p>
+                <h2>Dinky目录上传路径穿越</h2>
+                <p><strong>编号：</strong>CVE-2026-124572</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://seclists.org/oss-sec/2026/q4/532" target="_blank">https://seclists.org/oss-sec/2026/q4/532</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-6b0r-vw4h" target="_blank">https://www.oscs1024.com/hd/MPS-6b0r-vw4h</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Go工具链未公开细节安全漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-97042</p>
+                <h2>Dinky目录上传路径穿越</h2>
+                <p><strong>编号：</strong>CVE-2026-124572</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://seclists.org/oss-sec/2026/q4/532" target="_blank">https://seclists.org/oss-sec/2026/q4/532</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-6b0r-vw4h" target="_blank">https://www.oscs1024.com/hd/MPS-6b0r-vw4h</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Go工具链安全漏洞</title>
-            <link>https://seclists.org/oss-sec/2026/q4/532</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-97033</guid>
+            <title>Apache Airflow 密钥明文泄露漏洞</title>
+            <link>http://www.mail-archive.com/announce@apache.org/msg12577.html</link>
+            <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-113504</guid>
             <description><![CDATA[
-                <h2>Go工具链安全漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-97033</p>
+                <h2>Apache Airflow 密钥明文泄露漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-113504</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://seclists.org/oss-sec/2026/q4/532" target="_blank">https://seclists.org/oss-sec/2026/q4/532</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12577.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12577.html</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Go工具链安全漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-97033</p>
+                <h2>Apache Airflow 密钥明文泄露漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-113504</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://seclists.org/oss-sec/2026/q4/532" target="_blank">https://seclists.org/oss-sec/2026/q4/532</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12577.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12577.html</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Go 标准库及工具链安全漏洞</title>
-            <link>https://www.openwall.com/lists/oss-security/2026/11/05/13</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-97034</guid>
+            <title>Airflow CLI审计日志泄密漏洞</title>
+            <link>http://www.mail-archive.com/announce@apache.org/msg12579.html</link>
+            <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-86468</guid>
             <description><![CDATA[
-                <h2>Go 标准库及工具链安全漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-97034</p>
+                <h2>Airflow CLI审计日志泄密漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-86468</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.openwall.com/lists/oss-security/2026/11/05/13" target="_blank">https://www.openwall.com/lists/oss-security/2026/11/05/13</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12579.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12579.html</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Go 标准库及工具链安全漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-97034</p>
+                <h2>Airflow CLI审计日志泄密漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-86468</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.openwall.com/lists/oss-security/2026/11/05/13" target="_blank">https://www.openwall.com/lists/oss-security/2026/11/05/13</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12579.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12579.html</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Go 待披露安全漏洞</title>
-            <link>https://seclists.org/oss-sec/2026/q4/532</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-97039</guid>
+            <title>Airflow XCom反序列化漏洞</title>
+            <link>http://www.mail-archive.com/announce@apache.org/msg12580.html</link>
+            <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-111421</guid>
             <description><![CDATA[
-                <h2>Go 待披露安全漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-97039</p>
+                <h2>Airflow XCom反序列化漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-111421</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://seclists.org/oss-sec/2026/q4/532" target="_blank">https://seclists.org/oss-sec/2026/q4/532</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12580.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12580.html</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Go 待披露安全漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-97039</p>
+                <h2>Airflow XCom反序列化漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-111421</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://seclists.org/oss-sec/2026/q4/532" target="_blank">https://seclists.org/oss-sec/2026/q4/532</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>OpenSSH + musl libc 密码认证绕过漏洞</title>
-            <link>https://x.threatbook.com/v5/vul/XVE-2026-91288</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">XVE-2026-91288</guid>
-            <description><![CDATA[
-                <h2>OpenSSH + musl libc 密码认证绕过漏洞</h2>
-                <p><strong>编号：</strong>XVE-2026-91288</p>
-                <p><strong>来源：</strong>微步</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2026-91288" target="_blank">https://x.threatbook.com/v5/vul/XVE-2026-91288</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>OpenSSH + musl libc 密码认证绕过漏洞</h2>
-                <p><strong>编号：</strong>XVE-2026-91288</p>
-                <p><strong>来源：</strong>微步</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2026-91288" target="_blank">https://x.threatbook.com/v5/vul/XVE-2026-91288</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>HCL AION WebSocket连接未加密</title>
-            <link>https://www.oscs1024.com/hd/MPS-2uxy-jcr5</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-5345</guid>
-            <description><![CDATA[
-                <h2>HCL AION WebSocket连接未加密</h2>
-                <p><strong>编号：</strong>CVE-2026-5345</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-2uxy-jcr5" target="_blank">https://www.oscs1024.com/hd/MPS-2uxy-jcr5</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>HCL AION WebSocket连接未加密</h2>
-                <p><strong>编号：</strong>CVE-2026-5345</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-2uxy-jcr5" target="_blank">https://www.oscs1024.com/hd/MPS-2uxy-jcr5</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>HCL AION COOP响应头缺失漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-i3r7-vec5</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-35113</guid>
-            <description><![CDATA[
-                <h2>HCL AION COOP响应头缺失漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35113</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-i3r7-vec5" target="_blank">https://www.oscs1024.com/hd/MPS-i3r7-vec5</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>HCL AION COOP响应头缺失漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35113</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-i3r7-vec5" target="_blank">https://www.oscs1024.com/hd/MPS-i3r7-vec5</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>HCL AION 信息暴露漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-zt8b-eqsx</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-35111</guid>
-            <description><![CDATA[
-                <h2>HCL AION 信息暴露漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35111</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-zt8b-eqsx" target="_blank">https://www.oscs1024.com/hd/MPS-zt8b-eqsx</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>HCL AION 信息暴露漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35111</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-zt8b-eqsx" target="_blank">https://www.oscs1024.com/hd/MPS-zt8b-eqsx</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>HCL AION 明文传输漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-os9y-1av7</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-35110</guid>
-            <description><![CDATA[
-                <h2>HCL AION 明文传输漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35110</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-os9y-1av7" target="_blank">https://www.oscs1024.com/hd/MPS-os9y-1av7</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>HCL AION 明文传输漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35110</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-os9y-1av7" target="_blank">https://www.oscs1024.com/hd/MPS-os9y-1av7</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>HCL AION开放重定向漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-4x5c-fr0h</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-35107</guid>
-            <description><![CDATA[
-                <h2>HCL AION开放重定向漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35107</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-4x5c-fr0h" target="_blank">https://www.oscs1024.com/hd/MPS-4x5c-fr0h</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>HCL AION开放重定向漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35107</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-4x5c-fr0h" target="_blank">https://www.oscs1024.com/hd/MPS-4x5c-fr0h</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>HCL AION开放重定向漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-cmlg-vrp6</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-35106</guid>
-            <description><![CDATA[
-                <h2>HCL AION开放重定向漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35106</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-cmlg-vrp6" target="_blank">https://www.oscs1024.com/hd/MPS-cmlg-vrp6</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>HCL AION开放重定向漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35106</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-cmlg-vrp6" target="_blank">https://www.oscs1024.com/hd/MPS-cmlg-vrp6</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>HCL AION开放重定向漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-nrvx-ju5k</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-35105</guid>
-            <description><![CDATA[
-                <h2>HCL AION开放重定向漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35105</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-nrvx-ju5k" target="_blank">https://www.oscs1024.com/hd/MPS-nrvx-ju5k</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>HCL AION开放重定向漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35105</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-nrvx-ju5k" target="_blank">https://www.oscs1024.com/hd/MPS-nrvx-ju5k</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>HCL AION 跨域隔离削弱漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-72z1-4cto</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-35112</guid>
-            <description><![CDATA[
-                <h2>HCL AION 跨域隔离削弱漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35112</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-72z1-4cto" target="_blank">https://www.oscs1024.com/hd/MPS-72z1-4cto</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>HCL AION 跨域隔离削弱漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35112</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-72z1-4cto" target="_blank">https://www.oscs1024.com/hd/MPS-72z1-4cto</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>HCL AION敏感信息缓存漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-4f9o-ah62</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-35109</guid>
-            <description><![CDATA[
-                <h2>HCL AION敏感信息缓存漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35109</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-4f9o-ah62" target="_blank">https://www.oscs1024.com/hd/MPS-4f9o-ah62</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>HCL AION敏感信息缓存漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-35109</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-4f9o-ah62" target="_blank">https://www.oscs1024.com/hd/MPS-4f9o-ah62</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>HCL AION响应头注入漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-r1a7-p2z4</link>
-            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-21850</guid>
-            <description><![CDATA[
-                <h2>HCL AION响应头注入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-21850</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-r1a7-p2z4" target="_blank">https://www.oscs1024.com/hd/MPS-r1a7-p2z4</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>HCL AION响应头注入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-21850</p>
-                <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-06</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-r1a7-p2z4" target="_blank">https://www.oscs1024.com/hd/MPS-r1a7-p2z4</a></p>
+                <p><strong>时间：</strong>2026-11-09</p>
+                <p><strong>详情：</strong><a href="http://www.mail-archive.com/announce@apache.org/msg12580.html" target="_blank">http://www.mail-archive.com/announce@apache.org/msg12580.html</a></p>
             ]]></content:encoded>
         </item>
 
