@@ -5,299 +5,236 @@
         <link>https://github.com/anonymous99-Rise/cve_monitor</link>
         <description>威胁情报汇总 - 包含每日和每周威胁情报</description>
         <language>zh-CN</language>
-        <lastBuildDate>Tue, 10 Nov 2026 07:59:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Nov 2026 07:28:59 GMT</lastBuildDate>
 
         <item>
-            <title>AXIS OS本地提权漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-y8vn-j3et</link>
-            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-9063</guid>
+            <title>CVE-2026-64682漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-yreq-znjm</link>
+            <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-64682</guid>
             <description><![CDATA[
-                <h2>AXIS OS本地提权漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-9063</p>
+                <h2>CVE-2026-64682漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-64682</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-y8vn-j3et" target="_blank">https://www.oscs1024.com/hd/MPS-y8vn-j3et</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-yreq-znjm" target="_blank">https://www.oscs1024.com/hd/MPS-yreq-znjm</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>AXIS OS本地提权漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-9063</p>
+                <h2>CVE-2026-64682漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-64682</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-y8vn-j3et" target="_blank">https://www.oscs1024.com/hd/MPS-y8vn-j3et</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-yreq-znjm" target="_blank">https://www.oscs1024.com/hd/MPS-yreq-znjm</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Camera Station审计日志篡改</title>
-            <link>https://www.oscs1024.com/hd/MPS-pc5k-xs8i</link>
-            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-63287</guid>
+            <title>OpenSearch Dashboards: SSRF in fetchDataSourceMetaData — missing endpoint validation</title>
+            <link>https://www.oscs1024.com/hd/MPS-wfxc-mv38</link>
+            <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-64686</guid>
             <description><![CDATA[
-                <h2>Camera Station审计日志篡改</h2>
-                <p><strong>编号：</strong>CVE-2026-63287</p>
+                <h2>OpenSearch Dashboards: SSRF in fetchDataSourceMetaData — missing endpoint validation</h2>
+                <p><strong>编号：</strong>CVE-2026-64686</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-pc5k-xs8i" target="_blank">https://www.oscs1024.com/hd/MPS-pc5k-xs8i</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-wfxc-mv38" target="_blank">https://www.oscs1024.com/hd/MPS-wfxc-mv38</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Camera Station审计日志篡改</h2>
-                <p><strong>编号：</strong>CVE-2026-63287</p>
+                <h2>OpenSearch Dashboards: SSRF in fetchDataSourceMetaData — missing endpoint validation</h2>
+                <p><strong>编号：</strong>CVE-2026-64686</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-pc5k-xs8i" target="_blank">https://www.oscs1024.com/hd/MPS-pc5k-xs8i</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-wfxc-mv38" target="_blank">https://www.oscs1024.com/hd/MPS-wfxc-mv38</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>AXIS门禁认证绕过</title>
-            <link>https://www.oscs1024.com/hd/MPS-uqmi-512j</link>
-            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-63288</guid>
+            <title>Nitrite: Unfiltered Java Deserialization in Legacy v1 Database Migration Path</title>
+            <link>https://www.oscs1024.com/hd/MPS-y4ew-162v</link>
+            <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-64678</guid>
             <description><![CDATA[
-                <h2>AXIS门禁认证绕过</h2>
-                <p><strong>编号：</strong>CVE-2026-63288</p>
+                <h2>Nitrite: Unfiltered Java Deserialization in Legacy v1 Database Migration Path</h2>
+                <p><strong>编号：</strong>CVE-2026-64678</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-uqmi-512j" target="_blank">https://www.oscs1024.com/hd/MPS-uqmi-512j</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-y4ew-162v" target="_blank">https://www.oscs1024.com/hd/MPS-y4ew-162v</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>AXIS门禁认证绕过</h2>
-                <p><strong>编号：</strong>CVE-2026-63288</p>
+                <h2>Nitrite: Unfiltered Java Deserialization in Legacy v1 Database Migration Path</h2>
+                <p><strong>编号：</strong>CVE-2026-64678</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-uqmi-512j" target="_blank">https://www.oscs1024.com/hd/MPS-uqmi-512j</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-y4ew-162v" target="_blank">https://www.oscs1024.com/hd/MPS-y4ew-162v</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Camera Station认证缺失</title>
-            <link>https://www.oscs1024.com/hd/MPS-woal-nz7g</link>
-            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-8372</guid>
+            <title>pam_usb: deny_remote bypassed by compressed IPv6 addresses in pusb_tmux_has_remote_clients</title>
+            <link>https://www.oscs1024.com/hd/MPS-n20o-4sky</link>
+            <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-64669</guid>
             <description><![CDATA[
-                <h2>Camera Station认证缺失</h2>
-                <p><strong>编号：</strong>CVE-2026-8372</p>
+                <h2>pam_usb: deny_remote bypassed by compressed IPv6 addresses in pusb_tmux_has_remote_clients</h2>
+                <p><strong>编号：</strong>CVE-2026-64669</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-woal-nz7g" target="_blank">https://www.oscs1024.com/hd/MPS-woal-nz7g</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-n20o-4sky" target="_blank">https://www.oscs1024.com/hd/MPS-n20o-4sky</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>Camera Station认证缺失</h2>
-                <p><strong>编号：</strong>CVE-2026-8372</p>
+                <h2>pam_usb: deny_remote bypassed by compressed IPv6 addresses in pusb_tmux_has_remote_clients</h2>
+                <p><strong>编号：</strong>CVE-2026-64669</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-woal-nz7g" target="_blank">https://www.oscs1024.com/hd/MPS-woal-nz7g</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-n20o-4sky" target="_blank">https://www.oscs1024.com/hd/MPS-n20o-4sky</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>ACS Pro权限提升漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-vg7k-4x1s</link>
-            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-4762</guid>
+            <title>CVE-2026-64670漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-oj6h-myip</link>
+            <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-64670</guid>
             <description><![CDATA[
-                <h2>ACS Pro权限提升漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-4762</p>
+                <h2>CVE-2026-64670漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-64670</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-vg7k-4x1s" target="_blank">https://www.oscs1024.com/hd/MPS-vg7k-4x1s</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-oj6h-myip" target="_blank">https://www.oscs1024.com/hd/MPS-oj6h-myip</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>ACS Pro权限提升漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-4762</p>
+                <h2>CVE-2026-64670漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-64670</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-vg7k-4x1s" target="_blank">https://www.oscs1024.com/hd/MPS-vg7k-4x1s</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-oj6h-myip" target="_blank">https://www.oscs1024.com/hd/MPS-oj6h-myip</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>AXIS OS命令注入漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-295j-g3ea</link>
-            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-63282</guid>
+            <title>CVE-2026-64668漏洞</title>
+            <link>https://www.oscs1024.com/hd/MPS-2dmt-l530</link>
+            <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-64668</guid>
             <description><![CDATA[
-                <h2>AXIS OS命令注入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-63282</p>
+                <h2>CVE-2026-64668漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-64668</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-295j-g3ea" target="_blank">https://www.oscs1024.com/hd/MPS-295j-g3ea</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-2dmt-l530" target="_blank">https://www.oscs1024.com/hd/MPS-2dmt-l530</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>AXIS OS命令注入漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-63282</p>
+                <h2>CVE-2026-64668漏洞</h2>
+                <p><strong>编号：</strong>CVE-2026-64668</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-295j-g3ea" target="_blank">https://www.oscs1024.com/hd/MPS-295j-g3ea</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-2dmt-l530" target="_blank">https://www.oscs1024.com/hd/MPS-2dmt-l530</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>AXIS OS存储越权漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-wsek-imyx</link>
-            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-14543</guid>
+            <title>Stored XSS in the @waline/client UserList widget via an unescaped commenter link field</title>
+            <link>https://www.oscs1024.com/hd/MPS-yaoh-eqfw</link>
+            <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-64671</guid>
             <description><![CDATA[
-                <h2>AXIS OS存储越权漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-14543</p>
+                <h2>Stored XSS in the @waline/client UserList widget via an unescaped commenter link field</h2>
+                <p><strong>编号：</strong>CVE-2026-64671</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-wsek-imyx" target="_blank">https://www.oscs1024.com/hd/MPS-wsek-imyx</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-yaoh-eqfw" target="_blank">https://www.oscs1024.com/hd/MPS-yaoh-eqfw</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>AXIS OS存储越权漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-14543</p>
+                <h2>Stored XSS in the @waline/client UserList widget via an unescaped commenter link field</h2>
+                <p><strong>编号：</strong>CVE-2026-64671</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-wsek-imyx" target="_blank">https://www.oscs1024.com/hd/MPS-wsek-imyx</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-yaoh-eqfw" target="_blank">https://www.oscs1024.com/hd/MPS-yaoh-eqfw</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>签名视频框架越界读取</title>
-            <link>https://www.oscs1024.com/hd/MPS-nlqp-ehoa</link>
-            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-14918</guid>
+            <title>pam_usb: Heap out-of-bounds read in pusb_get_tty_from_display_server cmdline scan</title>
+            <link>https://www.oscs1024.com/hd/MPS-ldvh-ba4c</link>
+            <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-64667</guid>
             <description><![CDATA[
-                <h2>签名视频框架越界读取</h2>
-                <p><strong>编号：</strong>CVE-2026-14918</p>
+                <h2>pam_usb: Heap out-of-bounds read in pusb_get_tty_from_display_server cmdline scan</h2>
+                <p><strong>编号：</strong>CVE-2026-64667</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-nlqp-ehoa" target="_blank">https://www.oscs1024.com/hd/MPS-nlqp-ehoa</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-ldvh-ba4c" target="_blank">https://www.oscs1024.com/hd/MPS-ldvh-ba4c</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>签名视频框架越界读取</h2>
-                <p><strong>编号：</strong>CVE-2026-14918</p>
+                <h2>pam_usb: Heap out-of-bounds read in pusb_get_tty_from_display_server cmdline scan</h2>
+                <p><strong>编号：</strong>CVE-2026-64667</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-nlqp-ehoa" target="_blank">https://www.oscs1024.com/hd/MPS-nlqp-ehoa</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-ldvh-ba4c" target="_blank">https://www.oscs1024.com/hd/MPS-ldvh-ba4c</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>AXIS摄像站输入校验漏洞</title>
-            <link>https://www.oscs1024.com/hd/MPS-kaqo-e71x</link>
-            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-13312</guid>
+            <title>pam_usb: getenv() in pusb_local_login bypasses XRDP deny via env-var unset</title>
+            <link>https://www.oscs1024.com/hd/MPS-nbzl-hv68</link>
+            <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-64666</guid>
             <description><![CDATA[
-                <h2>AXIS摄像站输入校验漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-13312</p>
+                <h2>pam_usb: getenv() in pusb_local_login bypasses XRDP deny via env-var unset</h2>
+                <p><strong>编号：</strong>CVE-2026-64666</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-kaqo-e71x" target="_blank">https://www.oscs1024.com/hd/MPS-kaqo-e71x</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-nbzl-hv68" target="_blank">https://www.oscs1024.com/hd/MPS-nbzl-hv68</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>AXIS摄像站输入校验漏洞</h2>
-                <p><strong>编号：</strong>CVE-2026-13312</p>
+                <h2>pam_usb: getenv() in pusb_local_login bypasses XRDP deny via env-var unset</h2>
+                <p><strong>编号：</strong>CVE-2026-64666</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-kaqo-e71x" target="_blank">https://www.oscs1024.com/hd/MPS-kaqo-e71x</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-nbzl-hv68" target="_blank">https://www.oscs1024.com/hd/MPS-nbzl-hv68</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>ACS Pro开放重定向</title>
-            <link>https://www.oscs1024.com/hd/MPS-bgeh-y95z</link>
-            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-13387</guid>
+            <title>TwigView: Deserialization of Untrusted Data</title>
+            <link>https://www.oscs1024.com/hd/MPS-tfpb-wgxv</link>
+            <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">CVE-2026-59192</guid>
             <description><![CDATA[
-                <h2>ACS Pro开放重定向</h2>
-                <p><strong>编号：</strong>CVE-2026-13387</p>
+                <h2>TwigView: Deserialization of Untrusted Data</h2>
+                <p><strong>编号：</strong>CVE-2026-59192</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-bgeh-y95z" target="_blank">https://www.oscs1024.com/hd/MPS-bgeh-y95z</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-tfpb-wgxv" target="_blank">https://www.oscs1024.com/hd/MPS-tfpb-wgxv</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>ACS Pro开放重定向</h2>
-                <p><strong>编号：</strong>CVE-2026-13387</p>
+                <h2>TwigView: Deserialization of Untrusted Data</h2>
+                <p><strong>编号：</strong>CVE-2026-59192</p>
                 <p><strong>来源：</strong>OSCS1024漏洞库</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-bgeh-y95z" target="_blank">https://www.oscs1024.com/hd/MPS-bgeh-y95z</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://www.oscs1024.com/hd/MPS-tfpb-wgxv" target="_blank">https://www.oscs1024.com/hd/MPS-tfpb-wgxv</a></p>
             ]]></content:encoded>
         </item>
 
         <item>
-            <title>Google Chrome XML 释放后重用漏洞(CVE-2026-125350)</title>
-            <link>https://ti.qianxin.com/vulnerability/CVE-2026-125350</link>
-            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">CVE-2026-125350</guid>
+            <title>Redis 拒绝服务漏洞</title>
+            <link>https://x.threatbook.com/v5/vul/XVE-2025-17832</link>
+            <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="false">XVE-2025-17832</guid>
             <description><![CDATA[
-                <h2>Google Chrome XML 释放后重用漏洞(CVE-2026-125350)</h2>
-                <p><strong>编号：</strong>CVE-2026-125350</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-125350" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-125350</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Google Chrome XML 释放后重用漏洞(CVE-2026-125350)</h2>
-                <p><strong>编号：</strong>CVE-2026-125350</p>
-                <p><strong>来源：</strong>奇安信CERT</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://ti.qianxin.com/vulnerability/CVE-2026-125350" target="_blank">https://ti.qianxin.com/vulnerability/CVE-2026-125350</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>FortiADC 命令注入漏洞</title>
-            <link>https://x.threatbook.com/v5/vul/XVE-2025-11684</link>
-            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">XVE-2025-11684</guid>
-            <description><![CDATA[
-                <h2>FortiADC 命令注入漏洞</h2>
-                <p><strong>编号：</strong>XVE-2025-11684</p>
+                <h2>Redis 拒绝服务漏洞</h2>
+                <p><strong>编号：</strong>XVE-2025-17832</p>
                 <p><strong>来源：</strong>微步</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2025-11684" target="_blank">https://x.threatbook.com/v5/vul/XVE-2025-11684</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2025-17832" target="_blank">https://x.threatbook.com/v5/vul/XVE-2025-17832</a></p>
             ]]></description>
             <content:encoded><![CDATA[
-                <h2>FortiADC 命令注入漏洞</h2>
-                <p><strong>编号：</strong>XVE-2025-11684</p>
+                <h2>Redis 拒绝服务漏洞</h2>
+                <p><strong>编号：</strong>XVE-2025-17832</p>
                 <p><strong>来源：</strong>微步</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2025-11684" target="_blank">https://x.threatbook.com/v5/vul/XVE-2025-11684</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Kafka-ui 远程代码执行漏洞</title>
-            <link>https://x.threatbook.com/v5/vul/XVE-2023-37676</link>
-            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">XVE-2023-37676</guid>
-            <description><![CDATA[
-                <h2>Kafka-ui 远程代码执行漏洞</h2>
-                <p><strong>编号：</strong>XVE-2023-37676</p>
-                <p><strong>来源：</strong>微步</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2023-37676" target="_blank">https://x.threatbook.com/v5/vul/XVE-2023-37676</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Kafka-ui 远程代码执行漏洞</h2>
-                <p><strong>编号：</strong>XVE-2023-37676</p>
-                <p><strong>来源：</strong>微步</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2023-37676" target="_blank">https://x.threatbook.com/v5/vul/XVE-2023-37676</a></p>
-            ]]></content:encoded>
-        </item>
-
-        <item>
-            <title>Fortinet FortiSIEM操作系统命令注入漏洞</title>
-            <link>https://x.threatbook.com/v5/vul/XVE-2025-2790</link>
-            <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="false">XVE-2025-2790</guid>
-            <description><![CDATA[
-                <h2>Fortinet FortiSIEM操作系统命令注入漏洞</h2>
-                <p><strong>编号：</strong>XVE-2025-2790</p>
-                <p><strong>来源：</strong>微步</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2025-2790" target="_blank">https://x.threatbook.com/v5/vul/XVE-2025-2790</a></p>
-            ]]></description>
-            <content:encoded><![CDATA[
-                <h2>Fortinet FortiSIEM操作系统命令注入漏洞</h2>
-                <p><strong>编号：</strong>XVE-2025-2790</p>
-                <p><strong>来源：</strong>微步</p>
-                <p><strong>时间：</strong>2026-11-10</p>
-                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2025-2790" target="_blank">https://x.threatbook.com/v5/vul/XVE-2025-2790</a></p>
+                <p><strong>时间：</strong>2026-11-11</p>
+                <p><strong>详情：</strong><a href="https://x.threatbook.com/v5/vul/XVE-2025-17832" target="_blank">https://x.threatbook.com/v5/vul/XVE-2025-17832</a></p>
             ]]></content:encoded>
         </item>
 
